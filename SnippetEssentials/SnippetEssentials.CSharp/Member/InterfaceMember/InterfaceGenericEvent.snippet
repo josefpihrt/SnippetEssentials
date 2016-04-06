@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Interface Generic Event</Title>
+            <Shortcut>iemget</Shortcut>
+            <Description>Interface event with custom EventArgs.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>event</ID>
+                    <ToolTip>Event name</ToolTip>
+                    <Default>EventName</Default>
+                </Literal>
+                <Literal>
+                    <ID>eventargs</ID>
+                    <ToolTip>EventArgs name</ToolTip>
+                    <Default>EventArgs</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[event EventHandler<$eventargs$> $event$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

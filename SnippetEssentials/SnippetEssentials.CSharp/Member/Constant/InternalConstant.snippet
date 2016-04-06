@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Internal Constant</Title>
+            <Shortcut>ik</Shortcut>
+            <Description>Internal constant.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>_consttype</ID>
+                    <ToolTip>Constant type</ToolTip>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Constant name</ToolTip>
+                    <Default>ConstantName</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>Constant value</ToolTip>
+                    <Default>""</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[internal const $_consttype$ $name$ = $value$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

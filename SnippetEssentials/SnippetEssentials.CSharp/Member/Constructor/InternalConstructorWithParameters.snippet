@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Internal Constructor with Parameters</Title>
+            <Shortcut>icc_</Shortcut>
+            <Description>Internal constructor with parameters.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>parameters</ID>
+                    <ToolTip>Constructor parameters</ToolTip>
+                    <Default>object parameter</Default>
+                </Literal>
+                <Literal Editable="false">
+                    <ID>thisname</ID>
+                    <ToolTip>Containing type name</ToolTip>
+                    <Default>ThisName</Default>
+                    <Function>ClassName()</Function>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[internal $thisname$($parameters$)
+{
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

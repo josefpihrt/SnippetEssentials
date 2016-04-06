@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>If Not Return</Title>
+            <Shortcut>iffre</Shortcut>
+            <Description>If statement with return statement if the expression evaluates to false.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>expression</ID>
+                    <ToolTip>Expression to be evaluated</ToolTip>
+                    <Default>true</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[if (!$expression$)
+    return;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

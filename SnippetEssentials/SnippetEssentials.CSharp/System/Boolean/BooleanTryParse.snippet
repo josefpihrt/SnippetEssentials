@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Boolean TryParse</Title>
+            <Shortcut>btpe</Shortcut>
+            <Description>Boolean TryParse method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_bool</ID>
+                    <Default>bool</Default>
+                </Literal>
+                <Literal>
+                    <ID>result</ID>
+                    <ToolTip>Result variable name</ToolTip>
+                    <Default>result</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>A value to parse</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[bool $result$;
+if ($_bool$.TryParse($value$, out $result$))
+{
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

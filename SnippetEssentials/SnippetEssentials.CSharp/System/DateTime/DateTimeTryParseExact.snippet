@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>DateTime TryParseExact</Title>
+            <Shortcut>dttpee</Shortcut>
+            <Description>DateTime TryParseExact method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Globalization</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>format</ID>
+                    <ToolTip>Required format</ToolTip>
+                    <Default>""</Default>
+                </Literal>
+                <Literal>
+                    <ID>provider</ID>
+                    <ToolTip>Format provider</ToolTip>
+                    <Default>CultureInfo.CurrentCulture</Default>
+                </Literal>
+                <Literal>
+                    <ID>result</ID>
+                    <ToolTip>DateTime variable name</ToolTip>
+                    <Default>dt</Default>
+                </Literal>
+                <Literal>
+                    <ID>style</ID>
+                    <ToolTip>DateTime style</ToolTip>
+                    <Default>DateTimeStyles.None</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>A value to parse</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[DateTime $result$;
+if (DateTime.TryParseExact($value$, $format$, $provider$, $style$, out $result$))
+{
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

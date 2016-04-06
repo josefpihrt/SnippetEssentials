@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>ObservableCollection&lt;T&gt; Class</Title>
+            <Shortcut>_oc</Shortcut>
+            <Description>Public class derived from ObservableCollection&lt;T&gt;.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.Collections.Generic</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Collections.ObjectModel</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>type</ID>
+                    <ToolTip>Type</ToolTip>
+                    <Default>Object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ class $type$Collection : ObservableCollection<$type$>
+{
+    public $type$Collection()
+    {
+    }
+
+    public $type$Collection(IEnumerable<$type$> collection)
+        : base(collection)
+    {
+    }
+
+    public $type$Collection(IList<$type$> list)
+        : base(list)
+    {
+    }
+
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

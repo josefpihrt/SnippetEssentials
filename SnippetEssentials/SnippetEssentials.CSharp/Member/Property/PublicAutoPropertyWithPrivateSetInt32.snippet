@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Public Auto Property with Private Set Int32</Title>
+            <Shortcut>ppsi</Shortcut>
+            <Description>Public auto-implemented Int32 property with private setter.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>property</ID>
+                    <ToolTip>Property name</ToolTip>
+                    <Default>PropertyName</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[public int $property$ { get; private set; }$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Enumerable Join</Title>
+            <Shortcut>lj</Shortcut>
+            <Description>LINQ Join method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.Linq</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_lambdaparam</ID>
+                    <Default>f</Default>
+                </Literal>
+                <Literal Editable="false">
+                    <ID>_lambdaparam2</ID>
+                    <Default>g</Default>
+                </Literal>
+                <Literal>
+                    <ID>inner</ID>
+                    <ToolTip>Inner sequence</ToolTip>
+                    <Default>inner</Default>
+                </Literal>
+                <Literal>
+                    <ID>innerkeyselector</ID>
+                    <ToolTip>Inner sequence key selector</ToolTip>
+                    <Default>innerKeySelector</Default>
+                </Literal>
+                <Literal>
+                    <ID>outerkeyselector</ID>
+                    <ToolTip>Outer sequence key selector</ToolTip>
+                    <Default>outerKeySelector</Default>
+                </Literal>
+                <Literal>
+                    <ID>resultselector</ID>
+                    <ToolTip>Result selector</ToolTip>
+                    <Default>new { }</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[.Join($inner$, $_lambdaparam$ => $outerkeyselector$, $_lambdaparam2$ => $innerkeyselector$, ($_lambdaparam$, $_lambdaparam2$) => $resultselector$)$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

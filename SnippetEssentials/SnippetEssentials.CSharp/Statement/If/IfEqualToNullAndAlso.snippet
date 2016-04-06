@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>If Equal to Null &amp;&amp;</Title>
+            <Shortcut>ifnaa</Shortcut>
+            <Description>If statement with condition whether the expression is equal to null and another expression evaluates to true.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>expression</ID>
+                    <ToolTip>Expression to be evaluated</ToolTip>
+                    <Default>x</Default>
+                </Literal>
+                <Literal>
+                    <ID>rightExpression</ID>
+                    <ToolTip>Expression to be evaluated</ToolTip>
+                    <Default>true</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[if ($expression$ == null && $rightExpression$)
+{
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

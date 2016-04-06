@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Public Indexer</Title>
+            <Shortcut>ir</Shortcut>
+            <Description>Public indexer.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>getter</ID>
+                    <ToolTip>Indexer getter</ToolTip>
+                    <Default>return Items[index];</Default>
+                </Literal>
+                <Literal>
+                    <ID>parameter</ID>
+                    <ToolTip>Indexer parameter</ToolTip>
+                    <Default>int index</Default>
+                </Literal>
+                <Literal>
+                    <ID>setter</ID>
+                    <ToolTip>Indexer setter</ToolTip>
+                    <Default>Items[index] = value;</Default>
+                </Literal>
+                <Literal>
+                    <ID>type</ID>
+                    <ToolTip>Return type</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[public $type$ this[$parameter$]
+{
+    get { $getter$ }
+    set { $setter$ }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

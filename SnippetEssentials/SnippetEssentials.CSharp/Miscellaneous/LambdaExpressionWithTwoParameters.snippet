@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Lambda Expression with Two Parameters</Title>
+            <Shortcut>l2</Shortcut>
+            <Description>Lambda expression with two parameters.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_lambdaparam</ID>
+                    <ToolTip>First lambda parameter name</ToolTip>
+                    <Default>f</Default>
+                </Literal>
+                <Literal Editable="false">
+                    <ID>_lambdaparam2</ID>
+                    <ToolTip>Second lambda parameter name</ToolTip>
+                    <Default>g</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[($_lambdaparam$, $_lambdaparam2$) => $end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

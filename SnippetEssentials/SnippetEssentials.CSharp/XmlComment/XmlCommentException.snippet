@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Xml Comment for Exception</Title>
+            <Shortcut>xce</Shortcut>
+            <Description>Xml comment for Exception.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>comment</ID>
+                    <ToolTip>Comment text</ToolTip>
+                    <Default>comment</Default>
+                </Literal>
+                <Literal>
+                    <ID>exception</ID>
+                    <ToolTip>Exception type name</ToolTip>
+                    <Default>Exception</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[/// <exception cref="$exception$">$comment$</exception>$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

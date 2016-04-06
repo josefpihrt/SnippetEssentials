@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>String Split Remove Empty Entries</Title>
+            <Shortcut>sstree</Shortcut>
+            <Description>string.Split method (empty strings are excluded).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>_varstring</ID>
+                    <ToolTip>String variable name</ToolTip>
+                    <Default>s</Default>
+                </Literal>
+                <Literal>
+                    <ID>separator</ID>
+                    <ToolTip>Separator character(s)</ToolTip>
+                    <Default>' '</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$_varstring$.Split(new char[] { $separator$ }, StringSplitOptions.RemoveEmptyEntries)$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

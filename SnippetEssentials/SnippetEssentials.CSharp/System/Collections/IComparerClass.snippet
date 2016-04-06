@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>IComparer Class</Title>
+            <Shortcut>_icr</Shortcut>
+            <Description>Public class that implements IComparer.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Collections</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_object</ID>
+                    <Default>object</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>type</ID>
+                    <ToolTip>Type name</ToolTip>
+                    <Default>Object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ class $type$Comparer : IComparer
+{
+    public int Compare(object x, object y)
+    {
+        if ($_object$.ReferenceEquals(x, y))
+            return 0;
+
+        if (x == null)
+            return (y == null) ? 0 : -1;
+
+        if (y == null)
+            return 1;
+
+        var a = ($type$)x;
+        var b = ($type$)y;
+
+        throw new NotImplementedException();
+        $end$
+    }
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

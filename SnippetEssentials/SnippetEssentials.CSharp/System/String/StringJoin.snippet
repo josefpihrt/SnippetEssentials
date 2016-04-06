@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>String Join</Title>
+            <Shortcut>sjn</Shortcut>
+            <Description>string.Join method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_string</ID>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>separator</ID>
+                    <ToolTip>Separator</ToolTip>
+                    <Default>s</Default>
+                </Literal>
+                <Literal>
+                    <ID>values</ID>
+                    <ToolTip>Values to join</ToolTip>
+                    <Default>values</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$_string$.Join($separator$, $values$)$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

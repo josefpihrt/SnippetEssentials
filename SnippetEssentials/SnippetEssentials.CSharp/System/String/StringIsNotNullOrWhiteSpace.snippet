@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>String Is Not Null or White-space</Title>
+            <Shortcut>snnw</Shortcut>
+            <Description>Condition whether a string variable is not null, empty or white-space.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_string</ID>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>_varstring</ID>
+                    <ToolTip>String variable name</ToolTip>
+                    <Default>s</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[!$_string$.IsNullOrWhiteSpace($_varstring$)$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

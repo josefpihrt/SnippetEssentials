@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Variable String Interpolation</Title>
+            <Shortcut>vsi</Shortcut>
+            <Description>string variable declaration with string interpolation literal expression.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>_varstring</ID>
+                    <ToolTip>String variable name</ToolTip>
+                    <Default>s</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>Variable value</ToolTip>
+                    <Default>$"{}"</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[string $_varstring$ = $value$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

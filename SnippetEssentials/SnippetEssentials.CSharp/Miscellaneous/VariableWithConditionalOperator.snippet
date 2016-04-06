@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Variable with Conditional Operator</Title>
+            <Shortcut>vco</Shortcut>
+            <Description>Variable declaration with conditional operator.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>expression</ID>
+                    <ToolTip>Expression to be evaluated</ToolTip>
+                    <Default>expression</Default>
+                </Literal>
+                <Literal>
+                    <ID>false</ID>
+                    <ToolTip>False expression</ToolTip>
+                    <Default>null</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Variable name</ToolTip>
+                    <Default>x</Default>
+                </Literal>
+                <Literal>
+                    <ID>true</ID>
+                    <ToolTip>True expression</ToolTip>
+                    <Default>null</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[var $name$ = ($expression$) ? $true$ : $false$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

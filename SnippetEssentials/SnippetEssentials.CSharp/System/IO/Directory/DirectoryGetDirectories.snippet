@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Directory Get Directories</Title>
+            <Shortcut>dygd</Shortcut>
+            <Description>Directory.GetDirectories method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.IO</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>path</ID>
+                    <ToolTip>Directory path</ToolTip>
+                    <Default>directoryPath</Default>
+                </Literal>
+                <Literal>
+                    <ID>pattern</ID>
+                    <ToolTip>Search pattern</ToolTip>
+                    <Default>"*"</Default>
+                </Literal>
+                <Literal>
+                    <ID>searchoption</ID>
+                    <ToolTip>SearchOption</ToolTip>
+                    <Default>.AllDirectories</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[Directory.GetDirectories($path$, $pattern$, SearchOption$searchoption$)$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Variable Char</Title>
+            <Shortcut>vcr</Shortcut>
+            <Description>Char variable declaration.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>_varchar</ID>
+                    <ToolTip>Char variable name</ToolTip>
+                    <Default>ch</Default>
+                </Literal>
+                <Literal>
+                    <ID>expression</ID>
+                    <ToolTip>Char expression</ToolTip>
+                    <Default>''</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[char $_varchar$ = $expression$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Attribute Class</Title>
+            <Shortcut>_ae</Shortcut>
+            <Description>Public class derived from Attribute.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>allowmultiple</ID>
+                    <Default>false</Default>
+                </Literal>
+                <Literal>
+                    <ID>base</ID>
+                    <ToolTip>The name of the base class</ToolTip>
+                    <Default>Attribute</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public sealed</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>The name of the attribute</ToolTip>
+                    <Default>Custom</Default>
+                </Literal>
+                <Literal>
+                    <ID>target</ID>
+                    <Default>.All</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[[AttributeUsage(AttributeTargets$target$, AllowMultiple = $allowmultiple$)]
+$modifier$ class $name$Attribute : $base$
+{
+    public $name$Attribute()
+    {
+    }
+
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

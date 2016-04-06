@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Enum TryParse Ignore Case</Title>
+            <Shortcut>emtpeic</Shortcut>
+            <Description>Enum TryParse method (ignore case).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>enum</ID>
+                    <ToolTip>Enumeration type</ToolTip>
+                    <Default>Enumeration</Default>
+                </Literal>
+                <Literal>
+                    <ID>result</ID>
+                    <ToolTip>Result variable name</ToolTip>
+                    <Default>result</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>A value to parse</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$enum$ $result$;
+if (Enum.TryParse($value$, true, out $result$))
+{
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

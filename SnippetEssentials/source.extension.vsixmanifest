@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="SnippetEssentials.JosefPihrt.12cebd93-344d-4261-b622-22c408faedeb" Version="0.9.2" Language="en-US" Publisher="Josef Pihrt" />
+    <DisplayName>Snippet Essentials</DisplayName>
+    <Description xml:space="preserve">An ultimate collection of more than 700 snippets for C#.</Description>
+    <MoreInfo>http://pihrt.net/SnippetEssentials</MoreInfo>
+    <License>License.txt</License>
+    <ReleaseNotes>http://pihrt.net/SnippetEssentials/ReleaseNotes</ReleaseNotes>
+    <Icon>SnippetEssentials.ico</Icon>
+    <Tags>snippet,codesnippet,productivity,c#,csharp</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Community"/>
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="regedit.pkgdef" />
+  </Assets>
+</PackageManifest>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Event Property</Title>
+            <Shortcut>etp</Shortcut>
+            <Description>Event property.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>addhandler</ID>
+                    <ToolTip>Add handler</ToolTip>
+                    <Default>/*add handler*/</Default>
+                </Literal>
+                <Literal>
+                    <ID>event</ID>
+                    <ToolTip>Event name</ToolTip>
+                    <Default>EventName</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>removehandler</ID>
+                    <ToolTip>Remove handler</ToolTip>
+                    <Default>/*remove handler*/</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ event EventHandler $event$
+{
+    add {  $addhandler$; }
+    remove { $removehandler$; }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

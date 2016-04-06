@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Exception Class</Title>
+            <Shortcut>_e</Shortcut>
+            <Description>Public class derived from exception class.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Runtime.Serialization</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>base</ID>
+                    <ToolTip>Base exception type</ToolTip>
+                    <Default>Exception</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Exception name</ToolTip>
+                    <Default>Custom</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[[Serializable]
+$modifier$ class $name$Exception : $base$
+{
+    public $name$Exception()
+    {
+    }
+
+    public $name$Exception(string message)
+        : base(message)
+    {
+    }
+
+    public $name$Exception(string message, Exception inner)
+        : base(message, inner)
+    {
+    }
+
+    protected $name$Exception(SerializationInfo info, StreamingContext context)
+        : base(info, context)
+    {
+    }$end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Protected Abstract Method with Parameters</Title>
+            <Shortcut>dam_</Shortcut>
+            <Description>Protected abstract method with parameters.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>_returntype</ID>
+                    <ToolTip>Return type</ToolTip>
+                    <Default>void</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Method name</ToolTip>
+                    <Default>MethodName</Default>
+                </Literal>
+                <Literal>
+                    <ID>parameters</ID>
+                    <ToolTip>Method parameters</ToolTip>
+                    <Default>object parameter</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[protected abstract $_returntype$ $name$($parameters$);$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
