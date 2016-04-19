@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Snippet Essentials")]
-[assembly: AssemblyDescription("Snippet Essentials is a huge collection of Visual Studio snippets.")]
+[assembly: AssemblyDescription("An ultimate collection of more than 700 snippets for C#.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Pihrtsoft")]
 [assembly: AssemblyProduct("Snippet Essentials")]
