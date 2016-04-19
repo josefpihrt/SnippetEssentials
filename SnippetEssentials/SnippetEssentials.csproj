@@ -861,6 +861,9 @@
     <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyCollection.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
