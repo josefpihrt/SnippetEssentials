@@ -972,6 +972,9 @@
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\LambdaExpressionWithTwoParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Miscellaneous\ObjectKeyword.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\ParameterArray.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
