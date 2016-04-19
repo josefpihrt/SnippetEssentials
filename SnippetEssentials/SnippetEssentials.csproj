@@ -2169,6 +2169,9 @@
     <Content Include="SnippetEssentials.CSharp\System\Text\RegularExpressions\Regex.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Threading\Tasks\GenericTaskType.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
