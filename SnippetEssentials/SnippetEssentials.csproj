@@ -1287,6 +1287,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfEqualToNullAndAlso.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfEqualToNullContinue.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfEqualToNullOrElse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
