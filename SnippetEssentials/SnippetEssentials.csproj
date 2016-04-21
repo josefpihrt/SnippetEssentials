@@ -1101,9 +1101,6 @@
     <Content Include="SnippetEssentials.CSharp\Operator\ConditionalOperatorStringIsNullOrWhiteSpace.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Operator\ExclusiveOrOperator.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\Operator\ExplicitCastOperator.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
