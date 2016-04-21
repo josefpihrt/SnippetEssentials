@@ -1119,9 +1119,6 @@
     <Content Include="SnippetEssentials.CSharp\Operator\PostfixIncrementOperator.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Operator\TildeOperator.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\Operator\TypeOfBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
