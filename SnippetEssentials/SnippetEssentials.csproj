@@ -69,859 +69,859 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\InternalAbstractClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\InternalAbstractClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\InternalClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\InternalClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\InternalSealedClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\InternalSealedClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\InternalStaticClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\InternalStaticClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PrivateClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PrivateClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PrivateSealedClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PrivateSealedClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PrivateStaticClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PrivateStaticClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PublicAbstractClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PublicAbstractClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PublicClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PublicClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PublicSealedClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PublicSealedClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Class\PublicStaticClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Class\PublicStaticClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\InternalConstant.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\InternalConstant.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\InternalConstantInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\InternalConstantInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\InternalConstantInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\InternalConstantInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\InternalConstantString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\InternalConstantString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PrivateConstant.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PrivateConstant.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PrivateConstantInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PrivateConstantInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PrivateConstantInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PrivateConstantInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PrivateConstantString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PrivateConstantString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\ProtectedConstant.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\ProtectedConstant.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\ProtectedConstantInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\ProtectedConstantInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\ProtectedConstantInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\ProtectedConstantInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\ProtectedConstantString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\ProtectedConstantString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PublicConstant.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PublicConstant.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PublicConstantInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PublicConstantInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PublicConstantInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PublicConstantInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constant\PublicConstantString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constant\PublicConstantString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ConstructorBase.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ConstructorBase.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ConstructorThis.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ConstructorThis.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\InternalConstructor.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\InternalConstructor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\InternalConstructorWithBase.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\InternalConstructorWithBase.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\InternalConstructorWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\InternalConstructorWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\InternalConstructorWithThis.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\InternalConstructorWithThis.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PrivateConstructor.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PrivateConstructor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PrivateConstructorWithBase.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PrivateConstructorWithBase.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PrivateConstructorWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PrivateConstructorWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PrivateConstructorWithThis.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PrivateConstructorWithThis.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ProtectedConstructor.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ProtectedConstructor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ProtectedConstructorWithBase.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ProtectedConstructorWithBase.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ProtectedConstructorWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ProtectedConstructorWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\ProtectedConstructorWithThis.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\ProtectedConstructorWithThis.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PublicConstructor.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PublicConstructor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PublicConstructorWithBase.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PublicConstructorWithBase.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PublicConstructorWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PublicConstructorWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\PublicConstructorWithThis.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\PublicConstructorWithThis.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Constructor\StaticConstructor.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Constructor\StaticConstructor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\InternalDelegate.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\InternalDelegate.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\InternalDelegateWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\InternalDelegateWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\PrivateDelegate.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\PrivateDelegate.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\PrivateDelegateWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\PrivateDelegateWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\ProtectedDelegate.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\ProtectedDelegate.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\ProtectedDelegateWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\ProtectedDelegateWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\PublicDelegate.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\PublicDelegate.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Delegate\PublicDelegateWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Delegate\PublicDelegateWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Enum\InternalEnum.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Enum\InternalEnum.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Enum\PrivateEnum.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Enum\PrivateEnum.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Enum\ProtectedEnum.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Enum\ProtectedEnum.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Enum\PublicEnum.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Enum\PublicEnum.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Enum\PublicEnumWithFlagsAttribute.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Enum\PublicEnumWithFlagsAttribute.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\EventProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\EventProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\GenericEventProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\GenericEventProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\InternalAbstractEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalAbstractEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\InternalAbstractGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalAbstractGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\InternalEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\InternalGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PrivateEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PrivateEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PrivateGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PrivateGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\ProtectedEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\ProtectedEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\ProtectedGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\ProtectedGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PublicAbstractEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicAbstractEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PublicAbstractGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicAbstractGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PublicEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Event\PublicGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\InternalReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\InternalReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\InternalStaticField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\InternalStaticField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\InternalStaticReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\InternalStaticReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateFieldBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateFieldInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateFieldInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateFieldString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateReadOnlyFieldBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateReadOnlyFieldInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateReadOnlyFieldInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateReadOnlyFieldString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateStaticField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PrivateStaticReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PublicField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PublicField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PublicReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PublicReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PublicStaticField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PublicStaticField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Field\PublicStaticReadOnlyField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PublicStaticReadOnlyField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Indexer\InternalIndexer.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Indexer\InternalIndexer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Indexer\PublicIndexer.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Indexer\PublicIndexer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Interface\InternalInterface.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Interface\InternalInterface.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Interface\PublicInterface.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Interface\PublicInterface.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceGenericEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceIndexer.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceIndexer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfacePropertyBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfacePropertyInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfacePropertyInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfacePropertyString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceReadOnlyPropertyBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceReadOnlyPropertyInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceReadOnlyPropertyInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\InterfaceMember\InterfaceReadOnlyPropertyString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalAbstractMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalAbstractMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalAbstractMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalAbstractMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalStaticAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalStaticAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalStaticAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalStaticAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalStaticMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalStaticMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalStaticMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalStaticMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalVirtualAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalVirtualAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalVirtualAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalVirtualAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalVirtualMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalVirtualMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\InternalVirtualMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\InternalVirtualMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateEventHandler.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateEventHandler.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PrivateStaticMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedAbstractMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedAbstractMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedAbstractMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedAbstractMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedEventHandler.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedEventHandler.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedStaticAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedStaticAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedStaticAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedStaticAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedStaticMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedStaticMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedStaticMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedStaticMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedVirtualAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedVirtualAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedVirtualAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedVirtualAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedVirtualMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedVirtualMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\ProtectedVirtualMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\ProtectedVirtualMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicAbstractMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicAbstractMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicAbstractMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicAbstractMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicStaticMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicVirtualAsyncMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicVirtualAsyncMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicVirtualAsyncMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicVirtualAsyncMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicVirtualMethod.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicVirtualMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Method\PublicVirtualMethodWithParameters.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicVirtualMethodWithParameters.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Namespace\Namespace.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Namespace\Namespace.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadAmpersand.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadAmpersand.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadAsterisk.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadAsterisk.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadCaret.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadCaret.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadEquality.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadEquality.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadExclamationMark.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadExclamationMark.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadExplicit.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadExplicit.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadGreaterThanGreaterThan.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadGreaterThanGreaterThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadImplicit.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadImplicit.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadLessThan.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadLessThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadLessThanLessThan.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadLessThanLessThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadLessThanOrEqual.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadLessThanOrEqual.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadMinus.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadMinus.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadMinusMinus.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadMinusMinus.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadPercent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadPercent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadPlus.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadPlus.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadPlusPlus.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadPlusPlus.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadSlash.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadSlash.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadTilde.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadTilde.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadTrueFalse.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadTrueFalse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Operator\OperatorOverloadVerticalBar.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadVerticalBar.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalAbstractProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalAbstractProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalAbstractReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalAbstractReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalAutoPropertyWithPrivateSet.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalAutoPropertyWithPrivateSet.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalStaticAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalStaticAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalStaticReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalStaticReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalStaticReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalStaticReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalStaticReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalStaticReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalVirtualAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalVirtualAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalVirtualPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalVirtualPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalVirtualReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalVirtualReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalVirtualReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalVirtualReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\InternalVirtualReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\InternalVirtualReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateStaticReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateStaticReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateStaticReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateStaticReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PrivateStaticReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PrivateStaticReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedAbstractProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedAbstractProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedAbstractReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedAbstractReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedAutoPropertyWithPrivateSet.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedAutoPropertyWithPrivateSet.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedStaticReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedStaticReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedStaticReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedStaticReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedStaticReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedStaticReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedVirtualAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedVirtualAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedVirtualPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedVirtualPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedVirtualReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedVirtualReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedVirtualReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedVirtualReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\ProtectedVirtualReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\ProtectedVirtualReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAbstractProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAbstractProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAbstractReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAbstractReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyWithPrivateSet.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSet.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyWithPrivateSetBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyWithPrivateSetInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyWithPrivateSetInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicAutoPropertyWithPrivateSetString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicPropertyNotifyPropertyChanged.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicPropertyNotifyPropertyChanged.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyCollection.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyAutoPropertyString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyPropertyBoolean.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyPropertyInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyPropertyInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyPropertyString.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicStaticReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicStaticReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicStaticReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicVirtualAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicVirtualAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicVirtualPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicVirtualPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicVirtualReadOnlyAutoProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicVirtualReadOnlyAutoProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicVirtualReadOnlyProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicVirtualReadOnlyProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Property\PublicVirtualReadOnlyPropertyWithBackingField.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicVirtualReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Struct\InternalStruct.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Struct\InternalStruct.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Struct\PrivateStruct.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Struct\PrivateStruct.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Member\Struct\PublicStruct.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Struct\PublicStruct.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\Attribute.snippet">
