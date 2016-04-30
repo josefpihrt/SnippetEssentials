@@ -1356,6 +1356,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNot.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotAndAlso.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotEnumerableAny.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
