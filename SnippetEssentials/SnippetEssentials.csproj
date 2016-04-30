@@ -336,6 +336,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyFieldBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyFieldInt32.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PublicField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
