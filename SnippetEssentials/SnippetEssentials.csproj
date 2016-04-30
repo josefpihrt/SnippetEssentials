@@ -1395,6 +1395,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotMoveNext.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotOrElse.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotReturn.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
