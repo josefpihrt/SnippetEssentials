@@ -1437,6 +1437,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfStringNotEqualToNullOrWhiteSpace.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfTryGetValue.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Return\Return.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
