@@ -1410,6 +1410,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotReturnTrue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValue.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfOrElse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
