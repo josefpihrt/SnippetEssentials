@@ -1227,19 +1227,19 @@
     <Content Include="SnippetEssentials.CSharp\Statement\For\ForArray.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\For\ForArrayReversed.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\For\ForCollection.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\For\ForCollectionReversed.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\For\ForEmpty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\For\ReversedFor.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\For\ReversedForArray.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\For\ReversedForCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\Statement\For\ForReversed.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Foreach\Foreach.snippet">
