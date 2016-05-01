@@ -1173,10 +1173,25 @@
     <Content Include="SnippetEssentials.CSharp\PreprocessorDirective\WarningPreprocessorDirective.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Break\Break.snippet">
+    <Content Include="SnippetEssentials.CSharp\Statement\Break.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Continue\Continue.snippet">
+    <Content Include="SnippetEssentials.CSharp\Statement\Catch.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Continue.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Else.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\ElseIf.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Switch.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\SwitchSection.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Do\DoEqual.snippet">
@@ -1246,12 +1261,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Foreach\ForeachWithCounter.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\If\Else.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\If\ElseIf.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfAndAlso.snippet">
@@ -1467,12 +1476,6 @@
     <Content Include="SnippetEssentials.CSharp\Statement\Return\ReturnZero.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Switch\Switch.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Switch\SwitchSection.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\Throw.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1501,9 +1504,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNewNotSupportedException.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Try\Catch.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Try\TryCatch.snippet">
