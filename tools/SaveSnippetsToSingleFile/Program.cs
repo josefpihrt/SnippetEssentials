@@ -34,12 +34,13 @@ namespace Pihrtsoft.Snippets
 
             foreach (Snippet snippet in snippets)
             {
-                string s = Path.GetDirectoryName(snippet.FilePath)
+                string category = Path.GetDirectoryName(snippet.FilePath)
                     .Replace(dirPath, string.Empty)
                     .TrimStart(Path.DirectorySeparatorChar)
                     .Replace(Path.DirectorySeparatorChar, '.');
 
-                snippet.Keywords.Add("category:" + s);
+                snippet.Keywords.Add("Category:" + category);
+                snippet.Keywords.Add("FullyQualifiedName:" + category + "." + Path.GetFileNameWithoutExtension(snippet.FilePath));
 
                 snippetFile.Snippets.Add(snippet);
 
