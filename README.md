@@ -3,7 +3,7 @@
 ### Introduction
 
 * Snippet essentials is an ultimate collection of more than 700 snippets for C#.
-* Snippet Essentials is distributed as [Visual Studio Extension](https://visualstudiogallery.msdn.microsoft.com/2758202e-f99a-4163-9a73-254e64917632)
+* Snippet Essentials is distributed as [Visual Studio Extension](https://visualstudiogallery.msdn.microsoft.com/2758202e-f99a-4163-9a73-254e64917632).
 
 ### Links
 * [Snippet Essentials Website](http://pihrt.net/SnippetEssentials)
@@ -17,4 +17,4 @@ Snippet Essentials contains hundreds of snippets. Rather than memorizing snippet
 ### Location
 
 Snippets are installed to the following directory: 
-C:\Users\USER_NAME\AppData\Local\Microsoft\VisualStudio\VISUAL_STUDIO_VERSION\Extensions\EXTENSION_FOLDER
+\AppData\Local\Microsoft\VisualStudio\VISUAL_STUDIO_VERSION\Extensions\EXTENSION_FOLDER
