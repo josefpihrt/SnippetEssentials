@@ -2,7 +2,7 @@
 
 ### Introduction
 
-* Snippet essentials is an ultimate collection of more than 700 snippets for C#.
+* Snippet Essentials is an ultimate collection of more than 700 snippets for C#.
 * Snippet Essentials is distributed as [Visual Studio Extension](https://visualstudiogallery.msdn.microsoft.com/2758202e-f99a-4163-9a73-254e64917632).
 
 ### Links
