@@ -1923,13 +1923,13 @@
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeUtcNow.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\Debug\DebugAssert.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\DebugAssert.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\Debug\DebugAssertNotNull.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\DebugAssertNotNull.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\Debug\DebugWriteLine.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Diagnostics\DebugWriteLine.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Enum\EnumParse.snippet">
