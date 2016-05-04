@@ -3,9 +3,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>DateTime</Title>
-            <Shortcut>dt</Shortcut>
-            <Description>DateTime type declaration.</Description>
+            <Title>Array Type</Title>
+            <Shortcut>a</Shortcut>
+            <Description>Array type declaration.</Description>
             <Author>Josef Pihrt</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
@@ -15,12 +15,14 @@
             </Keywords>
         </Header>
         <Snippet>
-            <Imports>
-                <Import>
-                    <Namespace>System</Namespace>
-                </Import>
-            </Imports>
-            <Code Language="CSharp"><![CDATA[DateTime$end$]]></Code>
+            <Declarations>
+                <Literal>
+                    <ID>_generictype</ID>
+                    <ToolTip>Generic type</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$_generictype$[]$end$]]></Code>
         </Snippet>
     </CodeSnippet>
 </CodeSnippets>

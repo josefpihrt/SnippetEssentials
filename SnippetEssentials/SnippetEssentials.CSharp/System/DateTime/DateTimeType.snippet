@@ -3,16 +3,24 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Array of String</Title>
-            <Shortcut>as</Shortcut>
-            <Description>Array of string type declaration.</Description>
+            <Title>DateTime Type</Title>
+            <Shortcut>dt</Shortcut>
+            <Description>DateTime type declaration.</Description>
             <Author>Josef Pihrt</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
             </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
         </Header>
         <Snippet>
-            <Code Language="CSharp"><![CDATA[string[]$end$]]></Code>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+            </Imports>
+            <Code Language="CSharp"><![CDATA[DateTime$end$]]></Code>
         </Snippet>
     </CodeSnippet>
 </CodeSnippets>

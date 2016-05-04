@@ -1605,16 +1605,16 @@
     <Content Include="SnippetEssentials.CSharp\System\StringComparison.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Array\Array.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt32Type.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt64Type.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfStringType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfString.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\NewArray.snippet">
@@ -1899,9 +1899,6 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\VariableReadOnlyDictionary.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTime.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeMaxValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1918,6 +1915,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeTryParseExact.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeUtcNow.snippet">
@@ -2190,9 +2190,6 @@
     <Content Include="SnippetEssentials.CSharp\System\Threading\Tasks\GenericTaskType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpan.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpanMaxValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -2206,6 +2203,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpanTryParseExact.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpanType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpanZero.snippet">
