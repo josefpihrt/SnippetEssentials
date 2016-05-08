@@ -1458,6 +1458,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\Return\Return.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Return\ReturnDefault.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Return\ReturnFalse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
