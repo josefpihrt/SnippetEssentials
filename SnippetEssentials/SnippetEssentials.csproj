@@ -1428,6 +1428,18 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueInt32.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueInt64.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueString.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfOrElse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
