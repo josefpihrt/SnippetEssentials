@@ -303,6 +303,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateFieldInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -316,6 +319,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateReadOnlyFieldInt32.snippet">
@@ -334,6 +340,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyFieldBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyFieldDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\PrivateStaticReadOnlyFieldInt32.snippet">
@@ -384,6 +393,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -405,6 +417,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfacePropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -418,6 +433,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceReadOnlyPropertyInt32.snippet">
@@ -486,6 +504,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -511,6 +532,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodGenericIEnumerable.snippet">
@@ -591,6 +615,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodGenericIEnumerable.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -616,6 +643,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodGenericIEnumerable.snippet">
@@ -837,6 +867,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -850,6 +883,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicAutoPropertyWithPrivateSetInt32.snippet">
@@ -876,6 +912,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyCollection.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyAutoPropertyInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -889,6 +928,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyInt32.snippet">
@@ -1026,6 +1068,9 @@
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\ParameterArray.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Miscellaneous\ParameterArrayOfDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\ParameterArrayOfInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1054,6 +1099,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\TypeParameter.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Miscellaneous\TypeParameterDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\TypeParameterInt32.snippet">
@@ -1135,6 +1183,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Operator\TypeOfBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Operator\TypeOfDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Operator\TypeOfInt32.snippet">
@@ -1431,6 +1482,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueBoolean.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfNotTryGetValueInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1471,6 +1525,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfTryGetValueBoolean.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\IfTryGetValueDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\If\IfTryGetValueInt32.snippet">
@@ -1635,6 +1692,9 @@
     <Content Include="SnippetEssentials.CSharp\System\StringComparison.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt32Type.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1648,6 +1708,12 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\NewArray.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Array\NewArrayOfDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Array\NewArrayOfDateTimeWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\NewArrayOfInt32.snippet">
@@ -1672,6 +1738,12 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\VariableArray.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Array\VariableArrayOfDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Array\VariableArrayOfDateTimeWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\VariableArrayOfInt32.snippet">
@@ -1779,6 +1851,9 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSet.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfDateTime.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1789,6 +1864,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetWithArguments.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfDateTimeType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfInt32Type.snippet">
@@ -1828,6 +1906,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericList.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfInt32.snippet">
@@ -1951,6 +2032,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeUtcNow.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\System\DateTime\VariableDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Diagnostics\DebugAssert.snippet">
