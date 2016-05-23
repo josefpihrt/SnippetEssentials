@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Snippet Essentials")]
-[assembly: AssemblyDescription("An ultimate collection of more than 700 snippets for C#.")]
+[assembly: AssemblyDescription("An ultimate collection of 700+ snippets for C#.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Pihrtsoft")]
 [assembly: AssemblyProduct("Snippet Essentials")]
@@ -28,5 +28,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.9.5.*")]
+[assembly: AssemblyVersion("0.9.6.*")]
 //[assembly: AssemblyFileVersion("1.0.0.0")]
