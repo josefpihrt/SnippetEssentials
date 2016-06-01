@@ -1692,7 +1692,7 @@
     <Content Include="SnippetEssentials.CSharp\System\StringComparison.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfDateTime.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfDateTimeType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Array\ArrayOfInt32Type.snippet">
