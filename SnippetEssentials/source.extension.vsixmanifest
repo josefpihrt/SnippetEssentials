@@ -8,6 +8,7 @@
     <License>License.txt</License>
     <ReleaseNotes>http://pihrt.net/SnippetEssentials/ReleaseNotes</ReleaseNotes>
     <Icon>SnippetEssentials.ico</Icon>
+    <PreviewImage>Preview.png</PreviewImage>
     <Tags>Snippet,CodeSnippet,Productivity,C#,CSharp</Tags>
   </Metadata>
   <Installation>
