@@ -1845,6 +1845,9 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryOfStringString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryOfStringStringWithInitializer.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
