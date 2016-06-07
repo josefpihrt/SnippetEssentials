@@ -1830,6 +1830,9 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryOfStringString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryOfStringStringWithInitializer.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
