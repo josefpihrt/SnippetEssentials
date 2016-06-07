@@ -38,7 +38,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -1237,6 +1238,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\ElseIf.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Finally.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Switch.snippet">
