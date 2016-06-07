@@ -56,8 +56,10 @@ Title | Shortcut
 [Default keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.DefaultKeyword)|d
 [Object keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.ObjectKeyword)|o
 [Override keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.OverrideKeyword)|xo
+[Private keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.PrivateKeyword)|xp
 [Public keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.PublicKeyword)|x
 [Return keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.ReturnKeyword)|r
+[Static keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.StaticKeyword)|xs
 [String keyword](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Keyword.StringKeyword)|s
 
 #### Miscellaneous
@@ -125,7 +127,7 @@ Title | Shortcut
 [Try catch finally](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Try.TryCatchFinally)|tcf
 [Try catch](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Try.TryCatch)|tc
 [Try finally](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Try.TryFinally)|tf
-[Using statement](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Using.UsingNew)|un
+[Using statement with variable declaration](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Using.UsingNew)|un
 [Using statement](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Using.Using)|u
 [While statement](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.While.While)|we
 [Yield break](http://pihrt.net/SnippetEssentials/Snippet?FullyQualifiedName=Statement.Yield.YieldBreak)|yb
