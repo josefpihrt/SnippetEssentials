@@ -1,4 +1,13 @@
+#### Snippet Essentials 0.9.7 (2016-06-07)
+
+* new snippet: System.Collections.Generic.Dictionary.NewGenericDictionaryWithInitializer (ndir)
+* new snippet: System.Collections.Generic.Dictionary.NewGenericDictionaryOfStringStringWithInitializer (ndssir)
+* new snippet: System.Collections.Generic.Dictionary.VariableGenericDictionaryWithInitializer (vdir)
+* new snippet: System.Collections.Generic.Dictionary.VariableGenericDictionaryOfStringStringWithInitializer (vdssir)
+* new snippet: Statement.Finally (finally)
+
 #### Snippet Essentials 0.9.6 (2016-05-24)
+
 * new snippet: Declaration.Field.PrivateFieldDateTime (pfdt)
 * new snippet: Declaration.Field.PrivateReadOnlyFieldDateTime (prfdt)
 * new snippet: Declaration.Field.PrivateStaticReadOnlyFieldDateTime (psrfdt)
