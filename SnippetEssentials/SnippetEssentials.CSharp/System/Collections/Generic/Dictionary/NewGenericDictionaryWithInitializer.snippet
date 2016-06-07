@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>New Dictionary&lt;TKey, TValue&gt; with Initializer</Title>
+            <Shortcut>ndir</Shortcut>
+            <Description>New Dictionary&lt;TKey, TValue&gt; (with index initializer).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.Collections.Generic</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>key</ID>
+                    <ToolTip>The key of the value</ToolTip>
+                    <Default>key</Default>
+                </Literal>
+                <Literal>
+                    <ID>keytype</ID>
+                    <ToolTip>Key type</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>The value associated with the specified key</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+                <Literal>
+                    <ID>valuetype</ID>
+                    <ToolTip>Value type</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[new Dictionary<$keytype$, $valuetype$>() { [$key$] = $value$ }$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
