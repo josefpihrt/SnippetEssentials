@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+  <Sequence Value="_">
+    <Usage Rule="Prefix" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>class with content</Description>
+    </Usage>
+    <Usage Rule="Suffix" Language="CSharp" IsImportant="true" Category="Suffix">
+      <Description>property with backing field</Description>
+    </Usage>
+    <Usage Rule="Suffix" Language="CSharp" Category="Suffix">
+      <Description>method, constructor or delegate declaration with parameters</Description>
+    </Usage>
+    <Usage Rule="Suffix" Language="CSharp" Category="Suffix">
+      <Description>method or constructor call with arguments</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="a">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Type">
+      <Description>array</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>abstract</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="aa">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Operator">
+      <Description>&amp;&amp; operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ae">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>attribute</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="b">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>curly braces</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Other">
+      <Description>base</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Type">
+      <Description>boolean</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="bk">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Statement">
+      <Description>break statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="c">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>class</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Collection">
+      <Description>Collection&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="case">
+    <Usage Rule="EntireWord" Language="CSharp" Category="Other">
+      <Description>switch section</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="cb">
+    <Usage Rule="Special" Language="CSharp" Category="Other">
+      <Description>base class constructor call</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="cc">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>constructor</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ce">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Statement">
+      <Description>continue statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="co">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Operator">
+      <Description>conditional operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="cr">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>char</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ct">
+    <Usage Rule="Special" Language="CSharp" Category="Other">
+      <Description>containing class constructor call</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="d">
+    <Usage Rule="LastCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>protected</Description>
+    </Usage>
+    <Usage Rule="LastCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>sealed</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Collection">
+      <Description>Dictionary&lt;T&gt;</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Keyword">
+      <Description>default keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="dt">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Type">
+      <Description>DateTime</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="dy">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>Directory</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="e">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>else</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>exception</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>empty</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Operator">
+      <Description>= operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="eif">
+    <Usage Rule="Combined" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>else if</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="em">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>enum</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="er">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>enumerator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="et">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>event</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="f">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>field</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="fe">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>foreach statement</Description>
+    </Usage>
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Type">
+      <Description>File</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="fr">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>for statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="g">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>type parameter</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Comparison">
+      <Description>greater than</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="gq">
+    <Usage Rule="Combined" Language="CSharp" Category="Comparison">
+      <Description>greater than or equal</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="hs">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Collection">
+      <Description>HashSet&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="i">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>internal</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Type">
+      <Description>Int32</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ic">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Other">
+      <Description>ignore case</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ie">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>interface</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="iem">
+    <Usage Rule="Combined" Language="CSharp" Category="Declaration">
+      <Description>interface member</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="if">
+    <Usage Rule="EntireWord" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>if statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ife">
+    <Usage Rule="Combined" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>if else</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="iff">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>if not</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ii">
+    <Usage Rule="Special" Language="CSharp" Category="Type">
+      <Description>Int64</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ir">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>indexer</Description>
+    </Usage>
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Other">
+      <Description>initializer</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="k">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>const</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="l">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Collection">
+      <Description>List&lt;T&gt;</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>LINQ method</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Other">
+      <Description>lambda expression</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Comparison">
+      <Description>less than</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ll">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Collection">
+      <Description>LinkedList&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="lq">
+    <Usage Rule="Combined" Language="CSharp" Category="Comparison">
+      <Description>less than or equal</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="m">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>method</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Operator">
+      <Description>- operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="mx">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Other">
+      <Description>max (maximum)</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="mn">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Other">
+      <Description>min (minimum)</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="n">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>new</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>equal to null</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ne">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>equal to null or empty</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="nn">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>not equal to null</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="nne">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>not equal to null or empty</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="no">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Operator">
+      <Description>nameof operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ns">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>namespace</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="o">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Type">
+      <Description>object</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Operator">
+      <Description>operator</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Operator">
+      <Description>- operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="oc">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Collection">
+      <Description>ObservableCollection&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="oo">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>operator overload</Description>
+    </Usage>
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Operator">
+      <Description>|| operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="oq">
+    <Usage Rule="Combined" Language="CSharp" Category="Comparison">
+      <Description>object.Equals</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="orq">
+    <Usage Rule="Combined" Language="CSharp" Category="Comparison">
+      <Description>object.ReferenceEquals</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="p">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>property (auto-implemented)</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>private</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Operator">
+      <Description>+ operator</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="pa">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>parameter array</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="pe">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Method">
+      <Description>Parse</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="pp">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>property (expanded)</Description>
+    </Usage>
+    <Usage Rule="Special" Language="CSharp" Category="Other">
+      <Description>preprocessor directive</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ps">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Other">
+      <Description>private set</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="q">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>equals (equality)</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="qe">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Collection">
+      <Description>Queue&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="qq">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>not equals (inequality)</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="r">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>readonly</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Keyword">
+      <Description>return keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="rc">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Collection">
+      <Description>ReadOnlyCollection&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="re">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>return statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ref">
+    <Usage Rule="Combined" Language="CSharp" Category="Statement">
+      <Description>return false</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ret">
+    <Usage Rule="Combined" Language="CSharp" Category="Statement">
+      <Description>return true</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="rr">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>reader</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="s">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>static</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Type">
+      <Description>string</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sb">
+    <Usage Rule="Combined" Language="CSharp" Category="Type">
+      <Description>StringBuilder</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="se">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Other">
+      <Description>string.Empty</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sh">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>switch statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sk">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Collection">
+      <Description>Stack&lt;T&gt;</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sm">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>stream</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sne">
+    <Usage Rule="Combined" Language="CSharp" IsImportant="true" Category="Method">
+      <Description>string.IsNullOrEmpty</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="snne">
+    <Usage Rule="Combined" Language="CSharp" IsImportant="true" Category="Method">
+      <Description>!string.IsNullOrEmpty</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="snnw">
+    <Usage Rule="Combined" Language="CSharp" Category="Method">
+      <Description>!string.IsNullOrWhiteSpace</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="snw">
+    <Usage Rule="Combined" Language="CSharp" Category="Method">
+      <Description>string.IsNullOrWhiteSpace</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="sr">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>serializer</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="st">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Declaration">
+      <Description>struct</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="t">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Operator">
+      <Description>explicit cast</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tc">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>try catch</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tcf">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Statement">
+      <Description>try catch finally</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tf">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Statement">
+      <Description>try finally</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tgv">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Method">
+      <Description>TryGetValue</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="this">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>containing type name</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="to">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Operator">
+      <Description>typeof</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tpe">
+    <Usage Rule="Special" Language="CSharp" Category="Method">
+      <Description>TryParse</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tpee">
+    <Usage Rule="Special" Language="CSharp" Category="Method">
+      <Description>TryParseExact</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="ts">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Type">
+      <Description>TimeSpan</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="tw">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>throw statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="twn">
+    <Usage Rule="Combined" Language="CSharp" Category="Statement">
+      <Description>throw new</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="u">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>using statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="v">
+    <Usage Rule="FirstCharacter" Language="CSharp" IsImportant="true" Category="Modifier">
+      <Description>virtual</Description>
+    </Usage>
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>local variable declaration</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="we">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>while statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="where">
+    <Usage Rule="EntireWord" Language="CSharp" Category="Other">
+      <Description>generic type constraint</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="wr">
+    <Usage Rule="FirstLastCharacter" Language="CSharp" Category="Type">
+      <Description>writer</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="x">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>public keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xa">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>abstract keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xd">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>protected keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xi">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>internal keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xo">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>override keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xp">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>private keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xr">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>readonly keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xs">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>static keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xv">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>virtual keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xy">
+    <Usage Rule="Special" Language="CSharp" Category="Keyword">
+      <Description>async keyword</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="xc">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Other">
+      <Description>xml comment</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="y">
+    <Usage Rule="Special" Language="CSharp" Category="Modifier">
+      <Description>async</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="yb">
+    <Usage Rule="FirstCharacters" Language="CSharp" Category="Statement">
+      <Description>yield break statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="yr">
+    <Usage Rule="FirstCharacters" Language="CSharp" IsImportant="true" Category="Statement">
+      <Description>yield return statement</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="z">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>equal to zero</Description>
+    </Usage>
+    <Usage Rule="FirstCharacter" Language="CSharp" Category="Other">
+      <Description>zero</Description>
+    </Usage>
+  </Sequence>
+  <Sequence Value="zz">
+    <Usage Rule="Special" Language="CSharp" IsImportant="true" Category="Comparison">
+      <Description>not equal to zero</Description>
+    </Usage>
+  </Sequence>
+</Sequences>
