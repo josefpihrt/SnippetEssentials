@@ -1107,6 +1107,9 @@
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\SingletonClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Miscellaneous\SingletonClassLazyWithDoubleCheckedLocking.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringCarriageReturnAndLinefeed.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
