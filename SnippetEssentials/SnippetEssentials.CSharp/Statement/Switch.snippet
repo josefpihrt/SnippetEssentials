@@ -16,11 +16,6 @@
         </Header>
         <Snippet>
             <Declarations>
-                <Literal Editable="false">
-                    <ID>cases</ID>
-                    <Default>default:</Default>
-                    <Function>GenerateSwitchCases($expression$)</Function>
-                </Literal>
                 <Literal>
                     <ID>expression</ID>
                     <ToolTip>Expression to switch on</ToolTip>
@@ -29,7 +24,7 @@
             </Declarations>
             <Code Language="CSharp"><![CDATA[switch ($expression$)
 {
-    $end$$cases$
+    $end$
 }]]></Code>
         </Snippet>
     </CodeSnippet>
