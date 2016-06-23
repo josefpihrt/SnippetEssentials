@@ -255,6 +255,11 @@
       <Description>less than</Description>
     </Usage>
   </Sequence>
+  <Sequence Value="ly">
+    <Usage Rule="Suffix" Language="CSharp" Category="Other">
+      <Description>lazy initialization</Description>
+    </Usage>
+  </Sequence>
   <Sequence Value="ll">
     <Usage Rule="FirstCharacters" Language="CSharp" Category="Collection">
       <Description>LinkedList&lt;T&gt;</Description>
