@@ -948,6 +948,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyLazy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyLazyWithDoubleCheckedLocking.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicReadOnlyPropertyString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
