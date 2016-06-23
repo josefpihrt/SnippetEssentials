@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Singleton Class with Lazy&lt;T&gt;</Title>
+            <Shortcut>_singletonly</Shortcut>
+            <Description>Public class that implements singleton pattern with lazy initialization using Lazy&lt;T&gt;.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_fieldprefix</ID>
+                    <Default>_</Default>
+                </Literal>
+                <Literal>
+                    <ID>lazyThreadSafetyMode</ID>
+                    <ToolTip>LazyThreadSafetyMode</ToolTip>
+                    <Default>.ExecutionAndPublication</Default>
+                </Literal>
+                <Literal Editable="false">
+                    <ID>lock</ID>
+                    <Default>lockObject</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public sealed</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Class name</ToolTip>
+                    <Default>ClassName</Default>
+                </Literal>
+                <Literal>
+                    <ID>valueFactory</ID>
+                    <ToolTip>Value factory</ToolTip>
+                    <Default>() =&gt; </Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ class $name$
+{
+    private static readonly Lazy<$name$> $_fieldprefix$lazyInstance = new Lazy<$name$>($valueFactory$, LazyThreadSafetyMode$lazyThreadSafetyMode$);
+
+    private $name$()
+    {
+    }
+
+    public static $name$ Instance
+    {
+        get { return $_fieldprefix$lazyInstance.Value; }
+    }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
