@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Public Read-only Property with Lazy Initialization</Title>
+            <Shortcut>rply</Shortcut>
+            <Description>Public read-only property with lazy initialization.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_fieldprefix</ID>
+                    <Default>_</Default>
+                </Literal>
+                <Literal>
+                    <ID>_propertytype</ID>
+                    <ToolTip>Property type</ToolTip>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>defaultValue</ID>
+                    <ToolTip>Property default value</ToolTip>
+                    <Default>null</Default>
+                </Literal>
+                <Literal>
+                    <ID>property</ID>
+                    <ToolTip>Property name</ToolTip>
+                    <Default>PropertyName</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>A value to assign</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[private $_propertytype$ $_fieldprefix$$property$;
+
+public $_propertytype$ $property$
+{
+    get
+    {
+        if ($_fieldprefix$$property$ == $defaultValue$)
+        {
+            $_fieldprefix$$property$ = $value$;
+        }
+
+        return $_fieldprefix$$property$;
+    }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
