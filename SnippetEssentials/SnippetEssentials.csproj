@@ -969,6 +969,9 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyPropertyLazy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyPropertyLazyWithDoubleCheckedLocking.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Property\PublicStaticReadOnlyPropertyWithBackingField.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

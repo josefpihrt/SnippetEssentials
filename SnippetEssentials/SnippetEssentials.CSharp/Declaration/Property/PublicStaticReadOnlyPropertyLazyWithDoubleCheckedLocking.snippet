@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Public Static Read-only Property with Lazy Initialization using Double-checked Locking</Title>
+            <Shortcut>srply</Shortcut>
+            <Description>Public static read-only property with lazy initialization using double-checked locking.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_fieldprefix</ID>
+                    <Default>_</Default>
+                </Literal>
+                <Literal Editable="false">
+                    <ID>_locksuffix</ID>
+                    <Default>Lock</Default>
+                </Literal>
+                <Literal>
+                    <ID>_propertytype</ID>
+                    <ToolTip>Property type</ToolTip>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>defaultValue</ID>
+                    <ToolTip>Property default value</ToolTip>
+                    <Default>null</Default>
+                </Literal>
+                <Literal>
+                    <ID>property</ID>
+                    <ToolTip>Property name</ToolTip>
+                    <Default>PropertyName</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>A value to assign</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[private static $_propertytype$ $_fieldprefix$$property$;
+private static readonly object $_fieldprefix$$property$$_locksuffix$ = new object();
+
+public static $_propertytype$ $property$
+{
+    get
+    {
+        if ($_fieldprefix$$property$ == $defaultValue$)
+        {
+            lock ($_fieldprefix$$property$$_locksuffix$)
+            {
+                if ($_fieldprefix$$property$ == $defaultValue$)
+                {
+                    $_fieldprefix$$property$ = $value$;
+                }
+            }
+        }
+
+        return $_fieldprefix$$property$;
+    }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
