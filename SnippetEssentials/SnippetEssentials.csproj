@@ -1104,6 +1104,9 @@
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\ParameterArrayOfString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Miscellaneous\SingletonClass.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringCarriageReturnAndLinefeed.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

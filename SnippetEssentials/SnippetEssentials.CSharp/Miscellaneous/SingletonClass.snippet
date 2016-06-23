@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Singleton Class</Title>
+            <Shortcut>_singleton</Shortcut>
+            <Description>Public class that implements singleton pattern.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>_fieldprefix</ID>
+                    <Default>_</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public sealed</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Class name</ToolTip>
+                    <Default>ClassName</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>Value to initialize</ToolTip>
+                    <Default>value</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ class $name$
+{
+    private static readonly $name$ $_fieldprefix$instance = $value$;
+
+    private $name$()
+    {
+    }
+
+    public static $name$ Instance
+    {
+        get { return $_fieldprefix$instance; }
+    }
+}$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
