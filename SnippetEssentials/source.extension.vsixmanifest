@@ -6,7 +6,7 @@
     <Description xml:space="preserve">An ultimate collection of 700+ snippets for C#.</Description>
     <MoreInfo>http://pihrt.net/SnippetEssentials</MoreInfo>
     <License>License.txt</License>
-    <ReleaseNotes>http://pihrt.net/SnippetEssentials/ReleaseNotes</ReleaseNotes>
+    <ReleaseNotes>http://github.com/JosefPihrt/SnippetEssentials/blob/master/ChangeLog.md</ReleaseNotes>
     <Icon>SnippetEssentials.ico</Icon>
     <PreviewImage>Preview.png</PreviewImage>
     <Tags>Snippet,CodeSnippet,Productivity,C#,CSharp</Tags>
