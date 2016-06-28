@@ -1,3 +1,17 @@
+#### Snippet Essentials 0.9.8 (2016-06-29)
+
+##### New Snippets
+
+* Declaration.Property.PublicReadOnlyPropertyLazy (rply)
+* Declaration.Property.PublicReadOnlyPropertyLazyWithDoubleCheckedLocking (rply)
+* Declaration.Property.PublicReadOnlyPropertyLazyWithLazyOfT (rply)
+* Declaration.Property.PublicStaticReadOnlyPropertyLazy (srply)
+* Declaration.Property.PublicStaticReadOnlyPropertyLazyWithDoubleCheckedLocking (srply)
+* Declaration.Property.PublicStaticReadOnlyPropertyLazyWithLazyOfT (srply)
+* Miscellaneous.SingletonClass (_singleton)
+* Miscellaneous.SingletonClassLazyWithDoubleCheckedLocking (_singletonly)
+* Miscellaneous.SingletonClassLazyWithLazyOfT (_singletonly)
+
 #### Snippet Essentials 0.9.7 (2016-06-07)
 
 * new snippet: System.Collections.Generic.Dictionary.NewGenericDictionaryWithInitializer (ndir)
