@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveSnippetsToSingleFile", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSnippetFilesToProject", "tools\AddSnippetFilesToProject\AddSnippetFilesToProject.csproj", "{90D187E2-3211-4B99-84A2-4325B53F105B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnippetChecker", "tools\SnippetChecker\SnippetChecker.csproj", "{FBCD876B-5CDE-4C75-834C-685D33FB1725}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{90D187E2-3211-4B99-84A2-4325B53F105B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D187E2-3211-4B99-84A2-4325B53F105B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D187E2-3211-4B99-84A2-4325B53F105B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCD876B-5CDE-4C75-834C-685D33FB1725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCD876B-5CDE-4C75-834C-685D33FB1725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCD876B-5CDE-4C75-834C-685D33FB1725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCD876B-5CDE-4C75-834C-685D33FB1725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
