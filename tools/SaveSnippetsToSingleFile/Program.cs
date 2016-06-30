@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Pihrtsoft.Snippets;
 
 namespace Pihrtsoft.Snippets
 {
@@ -10,10 +9,12 @@ namespace Pihrtsoft.Snippets
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Specify snippet directory:");
+#if DEBUG
+            string dirPath = @"..\..\..\..\SnippetEssentials\SnippetEssentials.CSharp";
+#else
+            string dirPath = @"..\SnippetEssentials\SnippetEssentials.CSharp";
 
-            string dirPath = Console.ReadLine();
-
+#endif
             if (!Directory.Exists(dirPath))
             {
                 Console.WriteLine($"Directory not found: {dirPath}");
