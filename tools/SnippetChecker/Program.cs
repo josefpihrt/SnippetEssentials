@@ -26,7 +26,7 @@ namespace SnippetChecker
 
             var dirPaths = new List<string>();
             dirPaths.Add(mainDirPath);
-            dirPaths.Add(@"D:\SkyDrive\programování\Snippets\Snippets\_CSharp");
+            dirPaths.Add(@"D:\SkyDrive\programování\Snippets\CSharp");
             dirPaths.Add(@"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC#\Snippets");
 
             foreach (var dirPath in dirPaths)
