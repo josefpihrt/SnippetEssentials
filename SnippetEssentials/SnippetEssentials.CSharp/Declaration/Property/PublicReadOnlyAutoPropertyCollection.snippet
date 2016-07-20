@@ -12,11 +12,6 @@
             </SnippetTypes>
         </Header>
         <Snippet>
-            <Imports>
-                <Import>
-                    <Namespace>System.Collections.ObjectModel</Namespace>
-                </Import>
-            </Imports>
             <Declarations>
                 <Literal>
                     <ID>_genericType</ID>
@@ -24,12 +19,17 @@
                     <Default>object</Default>
                 </Literal>
                 <Literal>
+                    <ID>collection</ID>
+                    <ToolTip>Collection type</ToolTip>
+                    <Default>Collection</Default>
+                </Literal>
+                <Literal>
                     <ID>property</ID>
                     <ToolTip>Property name</ToolTip>
                     <Default>PropertyName</Default>
                 </Literal>
             </Declarations>
-            <Code Language="CSharp"><![CDATA[public Collection<$_genericType$> $property$ { get; } = new Collection<$_genericType$>();$end$]]></Code>
+            <Code Language="CSharp"><![CDATA[public  $collection$<$_genericType$> $property$ { get; } = new $collection$<$_genericType$>();$end$]]></Code>
         </Snippet>
     </CodeSnippet>
 </CodeSnippets>
