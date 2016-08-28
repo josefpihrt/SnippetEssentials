@@ -1,3 +1,11 @@
+#### Snippet Essentials 1.0.0 (2016-08-28)
+
+##### New Snippets
+
+* Statement.If.IfStringEquals (ifsq)
+* Statement.If.IfNotStringEquals (iffsq)
+* System.Collections.Immutable.ImmutableArrayType (giea)
+
 #### Snippet Essentials 0.9.8 (2016-06-29)
 
 ##### New Snippets
