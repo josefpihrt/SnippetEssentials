@@ -2022,6 +2022,9 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\VariableGenericStackWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Immutable\ImmutableArrayType.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\CollectionClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
