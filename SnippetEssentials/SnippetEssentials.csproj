@@ -1626,6 +1626,9 @@
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\Throw.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNew.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNewArgumentException.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -1633,9 +1636,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNewArgumentOutOfRangeException.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNewException.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Statement\Throw\ThrowNewExceptionWithArguments.snippet">
