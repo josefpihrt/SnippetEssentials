@@ -693,7 +693,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadCaret.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadEquality.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadEqualsEquals.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Operator\OperatorOverloadExclamationMark.snippet">
