@@ -38,7 +38,7 @@
             </Declarations>
             <Code Language="CSharp"><![CDATA[$modifier$ class $type$EqualityComparer : IEqualityComparer
 {
-    public new bool Equals(object x, object y)
+    new public bool Equals(object x, object y)
     {
         if ($_object$.ReferenceEquals(x, y))
             return true;
