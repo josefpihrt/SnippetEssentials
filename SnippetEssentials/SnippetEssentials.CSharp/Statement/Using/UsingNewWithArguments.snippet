@@ -24,12 +24,12 @@
                     <Default>arguments</Default>
                 </Literal>
                 <Literal>
-                    <ID>resource</ID>
+                    <ID>disposable</ID>
                     <ToolTip>A resource to initialize</ToolTip>
-                    <Default>Resource</Default>
+                    <Default>disposable</Default>
                 </Literal>
             </Declarations>
-            <Code Language="CSharp"><![CDATA[using (var $_varname$ = new $resource$($arguments$))
+            <Code Language="CSharp"><![CDATA[using (var $_varname$ = new $disposable$($arguments$))
 {
     $end$
 }]]></Code>
