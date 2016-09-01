@@ -7,7 +7,7 @@
     <ProjectGuid>{FBCD876B-5CDE-4C75-834C-685D33FB1725}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SnippetChecker</RootNamespace>
+    <RootNamespace>Pihrtsoft.Snippets</RootNamespace>
     <AssemblyName>SnippetChecker</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -36,10 +36,6 @@
       <HintPath>..\..\packages\SnippetManager.1.0.0\lib\net40\Pihrtsoft.Snippets.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Pihrtsoft.Text.RegularExpressions.Linq, Version=2.3.0.22739, Culture=neutral, PublicKeyToken=01b9b207a9c6318e, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LinqToRegex.2.3.0\lib\net40\Pihrtsoft.Text.RegularExpressions.Linq.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegexHelper.cs" />
+    <Compile Include="SnippetChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

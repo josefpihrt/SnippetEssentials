@@ -22,7 +22,7 @@ namespace Pihrtsoft.Snippets
                 yield return new SnippetValidationResult(
                     context.Snippet,
                     string.Empty,
-                    "Invalid author.",
+                    "Snippet author is not 'Josef Pihrt'.",
                     ResultImportance.Information);
             }
 
@@ -53,12 +53,13 @@ namespace Pihrtsoft.Snippets
                     ResultImportance.Information);
             }
 
-            if (RegexHelper.TypeName.IsMatch(context.Snippet.CodeText))
+            if (context.Snippet.Language == Language.CSharp
+                && RegexHelper.PredefinedTypeName.IsMatch(context.Snippet.CodeText))
             {
                 yield return new SnippetValidationResult(
                     context.Snippet,
                     string.Empty,
-                    "Snippet code contains alias.",
+                    "Snippet code contains predefined type.",
                     ResultImportance.Information);
             }
 
@@ -67,7 +68,7 @@ namespace Pihrtsoft.Snippets
                 yield return new SnippetValidationResult(
                     context.Snippet,
                     string.Empty,
-                    "Snippet contains trailing white-space.",
+                    "Snippet code contains trailing white-space.",
                     ResultImportance.Information);
             }
 
@@ -79,7 +80,7 @@ namespace Pihrtsoft.Snippets
                 yield return new SnippetValidationResult(
                     context.Snippet,
                     string.Empty,
-                    "Snippet contains invalid leading spaces.",
+                    "Snippet code contains invalid leading spaces.",
                     ResultImportance.Information);
             }
         }

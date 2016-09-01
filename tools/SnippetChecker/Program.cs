@@ -2,142 +2,91 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using Pihrtsoft.Snippets;
-using Pihrtsoft.Snippets.Comparers;
 using Pihrtsoft.Snippets.Validations;
 
-namespace SnippetChecker
+namespace Pihrtsoft.Snippets
 {
     internal class Program
     {
-        private static readonly SnippetDeepEqualityComparer _snippetEqualityComparer = new SnippetDeepEqualityComparer();
-
         static void Main(string[] args)
         {
-#if DEBUG
-            string mainDirPath = @"..\..\..\..\SnippetEssentials\SnippetEssentials.CSharp";
-#else
-            string mainDirPath = @"..\SnippetEssentials\SnippetEssentials.CSharp";
-#endif
-
-
             var dirPaths = new List<string>();
-            dirPaths.Add(mainDirPath);
-            dirPaths.Add(@"D:\SkyDrive\programování\Snippets\CSharp");
-            dirPaths.Add(@"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC#\Snippets");
 
-            foreach (var dirPath in dirPaths)
+            if (args?.Length > 0)
             {
-                if (!Directory.Exists(dirPath))
-                {
-                    Console.WriteLine($"directory not found '{dirPath}'");
-                    Console.ReadKey();
-                    return;
-                }
+                dirPaths.AddRange(args);
+            }
+            else
+            {
+                dirPaths.Add(Environment.CurrentDirectory);
             }
 
-            var snippets = new List<Snippet>(SnippetSerializer.DeserializeFiles(mainDirPath, SearchOption.AllDirectories).SelectMany(f => f.Snippets));
+            Console.WriteLine("directories:");
 
+            for (int i = 0; i < dirPaths.Count; i++)
+            {
+                Console.WriteLine($"  {dirPaths[i]}");
+
+                if (!Assert(Directory.Exists(dirPaths[i]), "directory not found"))
+                    return;
+            }
+
+            var snippets = new List<Snippet>(SnippetSerializer.DeserializeFiles(dirPaths[0], SearchOption.AllDirectories).SelectMany(f => f.Snippets));
+
+            Console.WriteLine();
             Console.WriteLine($"number of snippets: {snippets.Count}");
 
-            Validate(snippets);
-            FindDuplicates(dirPaths);
-
-            var settings = new SaveSettings();
-            settings.Comment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.";
-
-            foreach (Snippet snippet in ProcessSnippets(snippets))
+            foreach (SnippetValidationResult result in SnippetChecker.Validate(snippets))
             {
-                Console.WriteLine($"saving modified snippet '{snippet.Title}'");
-                Save(mainDirPath, snippet, settings);
+                Console.WriteLine();
+                Console.WriteLine($"{result.Importance}: \"{result.Description}\" in \"{result.Snippet.FilePath}\"");
             }
 
-            Console.WriteLine("*** FINISHED ***");
-            Console.ReadKey();
-        }
-
-        private static void Validate(List<Snippet> snippets)
-        {
-            var validator = new CustomSnippetValidator();
-
-            foreach (Snippet snippet in snippets)
+            foreach (IGrouping<string, Snippet> grouping in SnippetChecker.FindDuplicateShortcuts(dirPaths, "NonUniqueShortcut"))
             {
-                foreach (SnippetValidationResult result in validator.Validate(snippet))
-                {
-                    Console.WriteLine($"{result.Importance} {result.Code} {result.Description} {result.Snippet.Title} {Path.GetFileName(result.Snippet.FilePath)}");
-                    Debug.WriteLine($"{result.Importance} {result.Code} {result.Description} {result.Snippet.Title} {Path.GetFileName(result.Snippet.FilePath)}");
-                }
-            }
-        }
-
-        private static void FindDuplicates(List<string> dirPaths)
-        {
-            List<Snippet> snippets = DeserializeSnippets(dirPaths).ToList();
-
-            foreach (IGrouping<string, Snippet> grouping in FindDuplicateShortcuts(snippets))
-            {
-                if (grouping.All(f => f.Keywords.Contains("NonUniqueShortcut")))
-                    continue;
-
-                Console.WriteLine(grouping.Key);
+                Console.WriteLine();
+                Console.WriteLine($"shortcut duplicate: {grouping.Key}");
 
                 foreach (Snippet item in grouping)
-                    Console.WriteLine($"  {item.Title}");
+                    Console.WriteLine($"  {item.FilePath}");
+            };
 
-                Console.WriteLine();
-            }
-        }
+            var settings = new SaveSettings() { Comment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0." };
 
-        private static IEnumerable<Snippet> DeserializeSnippets(IEnumerable<string> dirPaths)
-        {
-            foreach (string dirPath in dirPaths)
+            foreach (Snippet snippet in SnippetChecker.GetSnippetsToSave(snippets))
             {
-                foreach (SnippetFile snippetFile in SnippetSerializer.DeserializeFiles(dirPath, SearchOption.AllDirectories))
+                Console.WriteLine();
+                Console.WriteLine($"saving modified snippet \"{snippet.Title}\"");
+
+                try
                 {
-                    foreach (Snippet snippet in snippetFile.Snippets)
-                        yield return snippet;
+                    snippet.Save(snippet.FilePath + ".modified", settings);
+                    Console.WriteLine("saved");
+                }
+                catch (IOException ex)
+                {
+                    Console.WriteLine(ex.Message);
                 }
             }
+
+            Assert(false);
         }
 
-        private static void Save(string dirPath, Snippet snippet, SaveSettings settings)
+        private static bool Assert(bool condition, string message = null)
         {
-            string filePath = snippet.FilePath + ".modified";
-            snippet.Save(filePath, settings);
-        }
-
-        private static IEnumerable<Snippet> ProcessSnippets(IList<Snippet> snippets)
-        {
-            foreach (Snippet snippet in snippets)
+            if (!condition)
             {
-                var s = (Snippet)snippet.Clone();
+                if (!string.IsNullOrEmpty(message))
+                    Console.WriteLine(message);
 
-                s.Literals.Sort();
-                s.Keywords.Sort();
-                s.Namespaces.Sort();
-
-                if (!_snippetEqualityComparer.Equals(snippet, s))
-                    yield return s;
+                Console.WriteLine();
+                Console.WriteLine("*** END ***");
+                Console.ReadKey();
             }
-        }
 
-        private static readonly StringComparer _stringComparer = StringComparer.CurrentCultureIgnoreCase;
-
-        public static IEnumerable<IGrouping<string, Snippet>> FindDuplicateShortcuts(IEnumerable<Snippet> snippets)
-        {
-            if (snippets == null)
-                throw new ArgumentNullException(nameof(snippets));
-
-            foreach (IGrouping<string, Snippet> grouping in snippets
-                .Where(f => f.Shortcut.Length > 0)
-                .GroupBy(f => f.Shortcut, _stringComparer))
-            {
-                if (grouping.Count() > 1)
-                    yield return grouping;
-            }
+            return condition;
         }
     }
 }
