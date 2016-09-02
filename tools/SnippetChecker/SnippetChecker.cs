@@ -51,14 +51,7 @@ namespace Pihrtsoft.Snippets
             }
         }
 
-        public static IEnumerable<Snippet> GetSnippetsToSave(IEnumerable<Snippet> snippets)
-        {
-            return snippets
-                .Select(f => GetUpdatedSnippet(f))
-                .Where(f => f != null);
-        }
-
-        private static Snippet GetUpdatedSnippet(Snippet snippet)
+        public static Snippet GetChangedSnippetOrDefault(Snippet snippet)
         {
             var snippet2 = (Snippet)snippet.Clone();
 

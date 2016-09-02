@@ -53,16 +53,28 @@ namespace Pihrtsoft.Snippets
                     Console.WriteLine($"  {item.FilePath}");
             };
 
-            var settings = new SaveSettings() { Comment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0." };
+            var settings = new SaveSettings()
+            {
+                Comment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.",
+                //OmitCodeSnippetsElement = true,
+                //IndentChars = "  ",
+                //OmitXmlDeclaration = true
+            };
 
-            foreach (Snippet snippet in SnippetChecker.GetSnippetsToSave(snippets))
+            foreach (Snippet snippet in snippets
+                    .Select(f => SnippetChecker.GetChangedSnippetOrDefault(f)).Where(f => f != null)
+                )
             {
                 Console.WriteLine();
                 Console.WriteLine($"saving modified snippet \"{snippet.Title}\"");
 
                 try
                 {
+                    //using (var fs = new FileStream(snippet.FilePath, FileMode.Create))
+                    //    snippet.Save(fs, settings);
+
                     snippet.Save(snippet.FilePath + ".modified", settings);
+
                     Console.WriteLine("saved");
                 }
                 catch (IOException ex)
