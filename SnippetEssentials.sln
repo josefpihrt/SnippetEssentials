@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSnippetFilesToProject", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnippetChecker", "tools\SnippetChecker\SnippetChecker.csproj", "{FBCD876B-5CDE-4C75-834C-685D33FB1725}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{F9992D27-8D7F-4C23-9D11-72A49CE0CA10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9631C6F-2D37-4375-A03B-8862F0F3B3BC} = {F9992D27-8D7F-4C23-9D11-72A49CE0CA10}
+		{90D187E2-3211-4B99-84A2-4325B53F105B} = {F9992D27-8D7F-4C23-9D11-72A49CE0CA10}
+		{FBCD876B-5CDE-4C75-834C-685D33FB1725} = {F9992D27-8D7F-4C23-9D11-72A49CE0CA10}
 	EndGlobalSection
 EndGlobal
