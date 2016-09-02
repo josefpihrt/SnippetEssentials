@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Event PropertyChanged</Title>
+            <Shortcut>etpc</Shortcut>
+            <Description>PropertyChanged event.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.ComponentModel</Namespace>
+                </Import>
+            </Imports>
+            <Code Language="CSharp"><![CDATA[/// <summary>
+/// Raises the <see cref="PropertyChanged"/> event.
+/// </summary>
+/// <param name="propertyName">Name of the property.</param>
+protected virtual void OnPropertyChanged(string propertyName)
+{
+    PropertyChangedEventHandler handler = PropertyChanged;
+    if (handler != null)
+        handler(this, new PropertyChangedEventArgs(propertyName));
+}
+
+/// <summary>
+/// Occurs when property value changes.
+/// </summary>
+public event PropertyChangedEventHandler PropertyChanged;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -38,7 +38,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -67,6 +68,75 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="SnippetEssentials.CSharp.Dev\ConsoleReadKey.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\ConsoleReadLine.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Decimal.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\GenericDictionaryOfStringStringType.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\NewImmutableArrayBuilderUsingCreateBuilder.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\NewImmutableArrayUsingCreateMethod.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\NewImmutableArrayUsingCreateRangeMethod.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableImmutableArrayBuilderUsingCreateBuilder.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableImmutableArrayUsingCreateMethod.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableImmutableArrayUsingCreateRangeMethod.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\MultilineComment.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\PublicReadOnlyAutoPropertyObservableCollection.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\PublicReadOnlyAutoPropertyReadOnlyCollection.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\ReturnAwait.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\TypeParameterObject.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\TypeParameterStringString.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\ul.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\UsingVariable.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableAwait.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableStopwatch.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableStreamReaderReadLines.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\VariableStringReaderReadLines.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\ElseIfNot.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\EnumGetValues.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\EventPropertyChanged.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\InternalReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\InternalStaticFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\InternalStaticReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldBooleanWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldDateTimeWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldInt32WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldInt64WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldStringWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldBooleanWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldDateTimeWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldInt32WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldInt64WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldStringWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldBooleanWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldDateTimeWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldInt32WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldInt64WithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldStringWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PrivateStaticReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PublicFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PublicReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PublicStaticFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\FieldWithInitialization\PublicStaticReadOnlyFieldWithInitialization.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\GetTypeToString.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\IsNotOperator.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\Not.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\ReturnCast.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\VariableLazy.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\ViewModelBaseClass.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\ViewModelClass.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\ViewModelCommand.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\CollectionClassWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\EventWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\ExceptionClassWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\GenericEventWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\ObservableCollectionClassWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\WithComments\ReadOnlyCollectionClassWithComments.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentClassWithExtensionMethods.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentClone.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentCompare.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentReadOnlyPropertyCollection.snippet" />
     <None Include="SnippetEssentials.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>

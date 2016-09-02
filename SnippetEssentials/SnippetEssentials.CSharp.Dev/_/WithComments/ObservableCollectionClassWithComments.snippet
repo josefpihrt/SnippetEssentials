@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Observable Collection Class with Comments</Title>
+            <Shortcut>_observablecollectionxc</Shortcut>
+            <Description>Public class derived from ObservableCollection&lt;T&gt; (with comments).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.Collections.Generic</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Collections.ObjectModel</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>type</ID>
+                    <ToolTip>Type</ToolTip>
+                    <Default>Object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[/// <summary>
+/// Represents the observable set of <see cref="$type$"/>.
+/// </summary>
+$modifier$ class $type$Collection : ObservableCollection<$type$>
+{
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$type$Collection"/> class that is empty.
+    /// </summary>
+    public $type$Collection()
+    {
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$type$Collection"/> class that contains elements copied from the specified collection.
+    /// </summary>
+    /// <param name="collection">The collection from which the elements are copied.</param>
+    public $type$Collection(IEnumerable<$type$> collection)
+        : base(collection)
+    {
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$type$Collection"/> class that contains elements copied from the specified list.
+    /// </summary>
+    /// <param name="list">The list from which the elements are copied.</param>
+    public $type$Collection(IList<$type$> list)
+        : base(list)
+    {
+    }
+
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

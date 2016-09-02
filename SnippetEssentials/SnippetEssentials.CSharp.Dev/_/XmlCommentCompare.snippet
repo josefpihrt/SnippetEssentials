@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Xml Comment Compare</Title>
+            <Shortcut>xccompare</Shortcut>
+            <Description>A xml comment for Compare method.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>object</ID>
+                    <ToolTip>Object name</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[/// <summary>
+/// Compares two <see cref="$object$"/>s and returns a value indicating whether one is less than, equal to, or greater than the other.
+/// </summary>
+/// <param name="x">The first <see cref="$object$"/> to compare.</param>
+/// <param name="y">The second <see cref="$object$"/> to compare.</param>
+/// <returns>An signed integer that indicates the relative values of <paramref name="x"/> and <paramref name="y"/>.</returns>$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

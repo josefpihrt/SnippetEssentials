@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Xml Comment Class with Extension Methods</Title>
+            <Shortcut>xcextensions</Shortcut>
+            <Description>A xml comment for public static class with extension methods.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>typename</ID>
+                    <ToolTip>Type name</ToolTip>
+                    <Default>Object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[/// <summary>
+/// Provides a set of static methods that extends <see cref="$typename$"/>.
+/// </summary>$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

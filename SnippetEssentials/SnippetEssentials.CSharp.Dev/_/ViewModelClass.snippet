@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>ViewModel Class</Title>
+            <Shortcut>_viewmodel</Shortcut>
+            <Description>Public class with suffix 'ViewModel'.</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>inherits</ID>
+                    <ToolTip>Inherits</ToolTip>
+                    <Default>: ViewModelBase</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Entity name</ToolTip>
+                    <Default>Entity</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[$modifier$ class $name$ViewModel $inherits$
+{
+    public $name$ViewModel()
+    {
+    }
+
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

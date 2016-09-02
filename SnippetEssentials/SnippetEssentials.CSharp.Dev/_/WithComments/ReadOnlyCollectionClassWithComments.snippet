@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Read-only Collection Class with Comments</Title>
+            <Shortcut>_readonlycollectionxc</Shortcut>
+            <Description>Public class derived from ReadOnlyCollection&lt;T&gt; (with comments).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System.Collections.Generic</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Collections.ObjectModel</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>type</ID>
+                    <ToolTip>Type</ToolTip>
+                    <Default>Object</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[/// <summary>
+/// Represents the set of <see cref="$type$"/>. This collection is read-only.
+/// </summary>
+$modifier$ class $type$Collection : ReadOnlyCollection<$type$>
+{
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$type$Collection"/> class that is a read-only wrapper around the specified list.
+    /// </summary>
+    /// <param name="list">The list to wrap.</param>
+    public $type$Collection(IList<$type$> list)
+        : base(list)
+    {
+    }
+
+    $end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Exception Class with Comments</Title>
+            <Shortcut>_exceptionxc</Shortcut>
+            <Description>Public class derived from exception class (with comments).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Imports>
+                <Import>
+                    <Namespace>System</Namespace>
+                </Import>
+                <Import>
+                    <Namespace>System.Runtime.Serialization</Namespace>
+                </Import>
+            </Imports>
+            <Declarations>
+                <Literal>
+                    <ID>base</ID>
+                    <ToolTip>Base exception type</ToolTip>
+                    <Default>Exception</Default>
+                </Literal>
+                <Literal>
+                    <ID>modifier</ID>
+                    <ToolTip>Access modifier</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Exception name</ToolTip>
+                    <Default>Custom</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[[Serializable]
+$modifier$ class $name$Exception : $base$
+{
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$name$Exception"/> class.
+    /// </summary>
+    public $name$Exception()
+    {
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$name$Exception"/> class with a specified error message.
+    /// </summary>
+    /// <param name="message">The message that describes the error.</param>
+    public $name$Exception(string message)
+        : base(message)
+    {
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$name$Exception"/> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+    /// </summary>
+    /// <param name="message">The message that describes the error.</param>
+    /// <param name="inner">The exception that is the cause of the current exception, or a null reference (<c>Nothing</c> in Visual Basic) if no inner exception is specified.</param>
+    public $name$Exception(string message, Exception inner)
+        : base(message, inner)
+    {
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="$name$Exception"/> class with serialized data.
+    /// </summary>
+    /// <param name="info">The <see cref="SerializationInfo"/> that holds the serialized object data about the exception being thrown.</param>
+    /// <param name="context">The <see cref="StreamingContext"/> that contains contextual information about the source or destination.</param>
+    protected $name$Exception(SerializationInfo info, StreamingContext context)
+        : base(info, context)
+    {
+    }$end$
+}]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

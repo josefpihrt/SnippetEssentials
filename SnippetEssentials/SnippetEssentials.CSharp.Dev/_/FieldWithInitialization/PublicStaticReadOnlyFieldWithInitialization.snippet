@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.-->
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Public Static Read-only Field (With Initialization)</Title>
+            <Shortcut>srf_</Shortcut>
+            <Description>Public static read-only field (with initialization).</Description>
+            <Author>Josef Pihrt</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+            <Keywords>
+                <Keyword>CoreSnippet</Keyword>
+            </Keywords>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>_fieldType</ID>
+                    <ToolTip>Field type</ToolTip>
+                    <Default>string</Default>
+                </Literal>
+                <Literal>
+                    <ID>name</ID>
+                    <ToolTip>Field name</ToolTip>
+                    <Default>FieldName</Default>
+                </Literal>
+                <Literal>
+                    <ID>value</ID>
+                    <ToolTip>Initial value of the field</ToolTip>
+                    <Default>null</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[public static readonly $_fieldType$ $name$ = $value$;$end$]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
