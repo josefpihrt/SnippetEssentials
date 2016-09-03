@@ -32,8 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Pihrtsoft.Snippets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=47d18de6ae9b6208, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SnippetManager.1.0.0\lib\net40\Pihrtsoft.Snippets.dll</HintPath>
+    <Reference Include="Pihrtsoft.Snippets, Version=1.1.0.0, Culture=neutral, PublicKeyToken=47d18de6ae9b6208, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SnippetManager.1.1.0\lib\net40\Pihrtsoft.Snippets.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
