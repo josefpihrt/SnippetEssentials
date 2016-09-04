@@ -6,38 +6,6 @@ namespace Pihrtsoft.Snippets
 {
     public static class RegexHelper
     {
-        public static readonly Regex PredefinedTypeName = new Regex(
-            @"
-            (?<!
-                (?m:
-                    ^
-                )
-                [\s-[\r\n]]*
-                /{3}
-                .*?
-            )
-            (?:
-                string
-            |
-                int
-            |
-                bool
-            |
-                long
-            |
-                object
-            )
-            \s*
-            \.
-            ",
-            RegexOptions.IgnorePatternWhitespace);
-
-        //public static readonly Regex PredefinedTypeName =
-        //    NotAssertBack(BeginLine().WhileWhiteSpaceExceptNewLine().Slash(3).CrawlNative())
-        //        .Any("string", "int", "bool", "long", "object")
-        //        .Dot()
-        //        .ToRegex();
-
         public static readonly Regex TrimEnd = new Regex(
             @"
             \ +

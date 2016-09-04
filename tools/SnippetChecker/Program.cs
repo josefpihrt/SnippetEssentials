@@ -10,6 +10,8 @@ namespace Pihrtsoft.Snippets
 {
     internal class Program
     {
+        private const string XmlComment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.";
+
         static void Main(string[] args)
         {
             var dirPaths = new List<string>();
@@ -23,6 +25,7 @@ namespace Pihrtsoft.Snippets
                 dirPaths.Add(Environment.CurrentDirectory);
             }
 
+            Console.WriteLine();
             Console.WriteLine("directories:");
 
             for (int i = 0; i < dirPaths.Count; i++)
@@ -44,35 +47,36 @@ namespace Pihrtsoft.Snippets
                 Console.WriteLine($"{result.Importance}: \"{result.Description}\" in \"{result.Snippet.FilePath}\"");
             }
 
-            foreach (IGrouping<string, Snippet> grouping in SnippetChecker.FindDuplicateShortcuts(dirPaths, "NonUniqueShortcut"))
+            foreach (ShortcutInfo shortcutInfo in SnippetChecker.FindDuplicateShortcuts(dirPaths, "NonUniqueShortcut"))
             {
                 Console.WriteLine();
-                Console.WriteLine($"shortcut duplicate: {grouping.Key}");
+                Console.WriteLine($"shortcut duplicate: {shortcutInfo.Shortcut}");
 
-                foreach (Snippet item in grouping)
+                foreach (Snippet item in shortcutInfo.Snippets)
                     Console.WriteLine($"  {item.FilePath}");
             };
 
+            SaveSnippets(snippets);
+
+            Assert(false);
+        }
+
+        private static void SaveSnippets(List<Snippet> snippets)
+        {
             var settings = new SaveSettings()
             {
-                Comment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.",
-                //OmitCodeSnippetsElement = true,
-                //IndentChars = "  ",
-                //OmitXmlDeclaration = true
+                Comment = XmlComment,
             };
 
             foreach (Snippet snippet in snippets
-                    .Select(f => SnippetChecker.GetChangedSnippetOrDefault(f)).Where(f => f != null)
-                )
+                .Select(f => SnippetChecker.GetChangedSnippetOrDefault(f))
+                .Where(f => f != null))
             {
                 Console.WriteLine();
-                Console.WriteLine($"saving modified snippet \"{snippet.Title}\"");
+                Console.WriteLine($"saving snippet \"{snippet.Title}\"");
 
                 try
                 {
-                    //using (var fs = new FileStream(snippet.FilePath, FileMode.Create))
-                    //    snippet.Save(fs, settings);
-
                     snippet.Save(snippet.FilePath + ".modified", settings);
 
                     Console.WriteLine("saved");
@@ -82,8 +86,36 @@ namespace Pihrtsoft.Snippets
                     Console.WriteLine(ex.Message);
                 }
             }
+        }
 
-            Assert(false);
+        private static void SaveSnippets2(List<Snippet> snippets)
+        {
+            var settings = new SaveSettings()
+            {
+                Comment = XmlComment,
+                OmitCodeSnippetsElement = true,
+                IndentChars = "  ",
+                OmitXmlDeclaration = true
+            };
+
+            foreach (Snippet snippet in snippets
+                    .Select(f => SnippetChecker.CloneAndSortCollections(f)))
+            {
+                Console.WriteLine();
+                Console.WriteLine($"saving snippet \"{snippet.Title}\"");
+
+                try
+                {
+                    using (var fs = new FileStream(snippet.FilePath, FileMode.Create))
+                        snippet.Save(fs, settings);
+
+                    Console.WriteLine("saved");
+                }
+                catch (IOException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
         }
 
         private static bool Assert(bool condition, string message = null)

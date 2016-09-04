@@ -26,15 +26,6 @@ namespace Pihrtsoft.Snippets
                     ResultImportance.Information);
             }
 
-            if (context.Snippet.Code.RemoveAllPlaceholders().Contains("_"))
-            {
-                yield return new SnippetValidationResult(
-                    context.Snippet,
-                    string.Empty,
-                    "Snippet code contains underscore.",
-                    ResultImportance.Information);
-            }
-
             if (context.Snippet.CodeText.Contains("\t"))
             {
                 yield return new SnippetValidationResult(
@@ -50,16 +41,6 @@ namespace Pihrtsoft.Snippets
                     context.Snippet,
                     string.Empty,
                     "Snippet shortcut contains white-space.",
-                    ResultImportance.Information);
-            }
-
-            if (context.Snippet.Language == Language.CSharp
-                && RegexHelper.PredefinedTypeName.IsMatch(context.Snippet.CodeText))
-            {
-                yield return new SnippetValidationResult(
-                    context.Snippet,
-                    string.Empty,
-                    "Snippet code contains predefined type.",
                     ResultImportance.Information);
             }
 
