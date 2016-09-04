@@ -26,13 +26,8 @@
                     <ToolTip>Identifier that represents the element in the collection</ToolTip>
                     <Default>item</Default>
                 </Literal>
-                <Literal>
-                    <ID>type</ID>
-                    <ToolTip>Type of object in the collection</ToolTip>
-                    <Default>var</Default>
-                </Literal>
             </Declarations>
-            <Code Language="CSharp"><![CDATA[foreach ($type$ $identifier$ in $_sequence$)
+            <Code Language="CSharp"><![CDATA[foreach (var $identifier$ in $_sequence$)
 {
     $end$
 }]]></Code>

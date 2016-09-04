@@ -28,14 +28,9 @@
                     <ToolTip>Collection item</ToolTip>
                     <Default>item</Default>
                 </Literal>
-                <Literal>
-                    <ID>type</ID>
-                    <ToolTip>Item type</ToolTip>
-                    <Default>var</Default>
-                </Literal>
             </Declarations>
             <Code Language="CSharp"><![CDATA[int $index$ = 0;
-foreach ($type$ $item$ in $_sequence$)
+foreach (var $item$ in $_sequence$)
 {
     $end$
     $index$++;
