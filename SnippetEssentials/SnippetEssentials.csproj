@@ -1933,9 +1933,6 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIDictionaryType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIEnumeratorType.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIEqualityComparerClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
