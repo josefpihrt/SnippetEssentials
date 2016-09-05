@@ -68,8 +68,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="SnippetEssentials.CSharp.Dev\ConsoleReadKey.snippet" />
-    <None Include="SnippetEssentials.CSharp.Dev\ConsoleReadLine.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Console\ConsoleWriteLine.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Console\ConsoleWrite.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Console\ConsoleReadKey.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Console\ConsoleRead.snippet" />
+    <None Include="SnippetEssentials.CSharp.Dev\Console\ConsoleReadLine.snippet" />
     <None Include="SnippetEssentials.CSharp.Dev\Decimal.snippet" />
     <None Include="SnippetEssentials.CSharp.Dev\GenericDictionaryOfStringStringType.snippet" />
     <None Include="SnippetEssentials.CSharp.Dev\NewImmutableArrayBuilderUsingCreateBuilder.snippet" />

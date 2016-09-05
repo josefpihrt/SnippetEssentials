@@ -3,9 +3,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Console ReadLine</Title>
-            <Shortcut>cerl</Shortcut>
-            <Description>Console.ReadLine method.</Description>
+            <Title>Console Write</Title>
+            <Shortcut>cew</Shortcut>
+            <Description>Console.Write method.</Description>
             <Author>Josef Pihrt</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
@@ -17,7 +17,14 @@
                     <Namespace>System</Namespace>
                 </Import>
             </Imports>
-            <Code Language="CSharp"><![CDATA[Console.ReadLine();$end$]]></Code>
+            <Declarations>
+                <Literal>
+                    <ID>args</ID>
+                    <ToolTip>Method arguments</ToolTip>
+                    <Default>args</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="CSharp"><![CDATA[Console.Read($args$);$end$]]></Code>
         </Snippet>
     </CodeSnippet>
 </CodeSnippets>
