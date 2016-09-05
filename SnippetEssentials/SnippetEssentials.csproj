@@ -137,6 +137,12 @@
     <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentClone.snippet" />
     <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentCompare.snippet" />
     <None Include="SnippetEssentials.CSharp.Dev\_\XmlCommentReadOnlyPropertyCollection.snippet" />
+    <Content Include="SnippetEssentials.CSharp\Statement\Do\Do.snippet_">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="SnippetEssentials.CSharp\Statement\If\If.snippet_">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="SnippetEssentials.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
