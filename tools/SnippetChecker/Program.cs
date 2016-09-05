@@ -11,6 +11,7 @@ namespace Pihrtsoft.Snippets
     internal class Program
     {
         private const string XmlComment = "Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0.";
+        private const string NonUniqueShortcutKeyword = "Meta-NonUniqueShortcut";
 
         static void Main(string[] args)
         {
@@ -47,7 +48,16 @@ namespace Pihrtsoft.Snippets
                 Console.WriteLine($"{result.Importance}: \"{result.Description}\" in \"{result.Snippet.FilePath}\"");
             }
 
-            foreach (ShortcutInfo shortcutInfo in SnippetChecker.FindDuplicateShortcuts(dirPaths, "Meta-NonUniqueShortcut"))
+            foreach (IGrouping<string, Snippet> snippet in snippets
+                .Where(f => f.Keywords.Contains(NonUniqueShortcutKeyword))
+                .GroupBy(f => f.Shortcut)
+                .Where(f => f.Count() == 1))
+            {
+                Console.WriteLine();
+                Console.WriteLine($"unused {NonUniqueShortcutKeyword} in \"{snippet.First().FilePath}\"");
+            }
+
+            foreach (ShortcutInfo shortcutInfo in SnippetChecker.FindDuplicateShortcuts(dirPaths, NonUniqueShortcutKeyword))
             {
                 Console.WriteLine();
                 Console.WriteLine($"shortcut duplicate: {shortcutInfo.Shortcut}");
