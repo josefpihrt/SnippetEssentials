@@ -47,7 +47,7 @@ namespace Pihrtsoft.Snippets
                 Console.WriteLine($"{result.Importance}: \"{result.Description}\" in \"{result.Snippet.FilePath}\"");
             }
 
-            foreach (ShortcutInfo shortcutInfo in SnippetChecker.FindDuplicateShortcuts(dirPaths, "NonUniqueShortcut"))
+            foreach (ShortcutInfo shortcutInfo in SnippetChecker.FindDuplicateShortcuts(dirPaths, "Meta-NonUniqueShortcut"))
             {
                 Console.WriteLine();
                 Console.WriteLine($"shortcut duplicate: {shortcutInfo.Shortcut}");
