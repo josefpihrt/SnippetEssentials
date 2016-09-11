@@ -14,7 +14,7 @@ namespace Pihrtsoft.Snippets
         private static void Main(string[] args)
         {
 #if DEBUG
-            string projectDirPath = @"D:\Documents\Visual Studio 2015\Projects\SnippetEssentials";
+            string projectDirPath = @"D:\Documents\Visual Studio 2015\Projects\SnippetEssentials\SnippetEssentials";
 #else
             string projectDirPath = Environment.CurrentDirectory;
 #endif
@@ -45,7 +45,7 @@ namespace Pihrtsoft.Snippets
                 return;
             }
 
-            int addedCount = AddSnippetFileReferences(itemGroup, projectDirPath);
+            int addedCount = AddSnippetFileReferences(itemGroup, directoryPath);
 
             Console.WriteLine();
             Console.WriteLine($"{nodesToRemove.Length} snippet file references removed from {CsProjFileName}");
@@ -109,7 +109,7 @@ namespace Pihrtsoft.Snippets
                 SearchOption.AllDirectories))
             {
                 string relativePath = filePath
-                    .Replace(projectDirectoryPath, string.Empty)
+                    .Replace(Path.GetDirectoryName(projectDirectoryPath), string.Empty)
                     .TrimStart(Path.DirectorySeparatorChar);
 
                 XNamespace ns = element.Name.Namespace;
