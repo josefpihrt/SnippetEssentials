@@ -479,7 +479,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodIEnumerableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceMethodInt32.snippet">
@@ -590,7 +590,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodIEnumerableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateMethodInt32.snippet">
@@ -620,7 +620,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodIEnumerableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PrivateStaticMethodInt32.snippet">
@@ -701,7 +701,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodIEnumerableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicMethodInt32.snippet">
@@ -731,7 +731,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodGenericIEnumerable.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodIEnumerableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Method\PublicStaticMethodInt32.snippet">
@@ -1808,10 +1808,10 @@
     <Content Include="SnippetEssentials.CSharp\System\ConsoleWriteLineWithStringInterpolation.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\GenericIComparable.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\IComparableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\GenericIEquatable.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\IEquatableOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\NewGuid.snippet">
@@ -1925,238 +1925,238 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\IEqualityComparerClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericICollectionType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\ICollectionOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIComparerClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IComparerOfTClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIComparerType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IComparerOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIDictionaryType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IDictionaryOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIEqualityComparerClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEqualityComparerOfTClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIEqualityComparerType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEqualityComparerOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericIListType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IListOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericKeyValuePairType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\KeyValuePairOfTKeyTValueType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\VariableGenericIEnumerator.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\VariableIEnumeratorOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\GenericDictionaryType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\DictionaryOfTKeyTValueType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionary.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewDictionaryOfStringString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryOfStringString.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewDictionaryOfStringStringWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryOfStringStringWithInitializer.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewDictionaryOfTKeyTValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryWithArguments.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewDictionaryOfTKeyTValueWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewGenericDictionaryWithInitializer.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\NewDictionaryOfTKeyTValueWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionary.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableDictionaryOfStringString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryOfStringString.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableDictionaryOfStringStringWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryOfStringStringWithInitializer.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableDictionaryOfTKeyTValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryWithArguments.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableDictionaryOfTKeyTValueWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableGenericDictionaryWithInitializer.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Dictionary\VariableDictionaryOfTKeyTValueWithInitializer.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\GenericHashSetType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\HashSetOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\NewGenericHashSet.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\NewHashSetOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\NewGenericHashSetWithArguments.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\NewHashSetOfTWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSet.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfDateTime.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetOfString.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableGenericHashSetWithArguments.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\HashSet\VariableHashSetOfTWithArguments.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfDateTimeType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\IEnumerableOfDateTimeType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfInt32Type.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\IEnumerableOfInt32Type.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfInt64Type.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\IEnumerableOfInt64Type.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableOfStringType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\IEnumerableOfStringType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\GenericIEnumerableType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\IEnumerable\IEnumerableOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\GenericLinkedListType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\LinkedListOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\NewGenericLinkedList.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\NewLinkedListOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\NewGenericLinkedListWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\NewLinkedListOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\VariableGenericLinkedList.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\VariableLinkedListOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\VariableGenericLinkedListWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\LinkedList\VariableLinkedListOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\GenericListType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\ListOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\NewGenericList.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\NewListOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\NewGenericListWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\NewListOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericList.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfDateTime.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfDateTime.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfInt32.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfInt32.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfInt64.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfInt64.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfString.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListOfString.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableGenericListWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\List\VariableListOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\GenericQueueType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\NewQueueOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\NewGenericQueue.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\NewQueueOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\NewGenericQueueWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\QueueOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\VariableGenericQueue.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\VariableQueueOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\VariableGenericQueueWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Queue\VariableQueueOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\GenericStackType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\NewStackOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\NewGenericStack.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\NewStackOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\NewGenericStackWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\StackOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\VariableGenericStack.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\VariableStackOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\VariableGenericStackWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\Stack\VariableStackOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Immutable\ImmutableArrayType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\CollectionClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\CollectionOfTClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\GenericCollectionType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\CollectionOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\NewCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\NewCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\NewCollectionWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\NewCollectionOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\VariableCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\VariableCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\VariableCollectionWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\Collection\VariableCollectionOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\GenericObservableCollectionType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\NewObservableCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\NewObservableCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\NewObservableCollectionOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\NewObservableCollectionWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\ObservableCollectionOfTClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\ObservableCollectionClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\ObservableCollectionOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\VariableObservableCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\VariableObservableCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\VariableObservableCollectionWithArgument.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ObservableCollection\VariableObservableCollectionOfTWithArgument.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\GenericReadOnlyCollectionType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\NewReadOnlyCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\NewReadOnlyCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\ReadOnlyCollectionOfTClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\ReadOnlyCollectionClass.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\ReadOnlyCollectionOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\VariableReadOnlyCollection.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyCollection\VariableReadOnlyCollectionOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\GenericReadOnlyDictionaryType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\NewReadOnlyDictionaryOfTKeyTValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\NewReadOnlyDictionary.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\ReadOnlyDictionaryOfTKeyTValueType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\VariableReadOnlyDictionary.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Collections\ObjectModel\ReadOnlyDictionary\VariableReadOnlyDictionaryOfTKeyTValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\DateTime\DateTimeMaxValue.snippet">
@@ -2453,7 +2453,7 @@
     <Content Include="SnippetEssentials.CSharp\System\Text\RegularExpressions\Regex.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Threading\Tasks\GenericTaskType.snippet">
+    <Content Include="SnippetEssentials.CSharp\System\Threading\Tasks\TaskOfTType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\System\TimeSpan\TimeSpanMaxValue.snippet">
