@@ -1925,9 +1925,6 @@
     <Content Include="SnippetEssentials.CSharp\System\Collections\IEqualityComparerClass.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\System\Collections\VariableIEnumerator.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\System\Collections\Generic\GenericICollectionType.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
