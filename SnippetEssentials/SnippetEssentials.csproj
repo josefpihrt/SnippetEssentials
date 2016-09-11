@@ -38,8 +38,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>
-    </CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -333,43 +332,43 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\EventProperty.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\GenericEventProperty.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\EventPropertyWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalAbstractEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalAbstractGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalAbstractEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\InternalEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\PrivateEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PrivateGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PrivateEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\ProtectedEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\ProtectedGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\ProtectedEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicAbstractEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicAbstractGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicAbstractEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\Event\PublicEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\Field\InternalReadOnlyField.snippet">
@@ -465,7 +464,7 @@
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceEvent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceGenericEvent.snippet">
+    <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceEventWithEventHandlerOfT.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Declaration\InterfaceMember\InterfaceIndexer.snippet">
