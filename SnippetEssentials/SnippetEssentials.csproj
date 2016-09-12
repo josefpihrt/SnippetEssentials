@@ -1205,13 +1205,7 @@
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringCarriageReturnAndLinefeed.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringInterpolation.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringLinefeed.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="SnippetEssentials.CSharp\Miscellaneous\StringVerbatim.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="SnippetEssentials.CSharp\Miscellaneous\TodoComment.snippet">
