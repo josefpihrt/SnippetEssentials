@@ -1,5 +1,10 @@
 # Snippet Essentials
 
+### IMPORTANT: Snippet Essentials has evolved into [Snippetica](https://github.com/JosefPihrt/Snippetica).
+* **Snippetica is virtually the next version of Snippet Essentials.**
+* **Snippetica supports more languages and it has better documentation.**
+* **Snippetica is available for Visual Studio 2017.**
+
 ### Introduction
 
 * Snippet Essentials is an ultimate collection of 700+ snippets for C#.
