@@ -1,4 +1,4 @@
-# Snippet Essentials
+# \[deprecated\] Snippet Essentials
 
 ### IMPORTANT: Snippet Essentials has evolved into [Snippetica](https://github.com/JosefPihrt/Snippetica).
 * **Snippetica is virtually the next version of Snippet Essentials.**
